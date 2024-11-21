@@ -2,20 +2,80 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@layer base {
+  * {
+    @apply p-0 m-0 scroll-smooth;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  /* layout related styles like flex and grid */
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .flex-between {
+    @apply flex justify-between;
+  }
+
+  .flex-end {
+    @apply flex items-center justify-end;
+  }
+
+  .flex-start {
+    @apply flex items-center justify-start;
+  }
+
+  .flex-column {
+    @apply flex flex-col;
+  }
+
+  .grid-center {
+    @apply grid items-center justify-center;
+  }
+  .grid-start {
+    @apply grid items-center justify-start;
+  }
+
+  .h2-semibold-lg-h1-semibold {
+    @apply text-3xl font-semibold lg:text-4xl;
+  }
+  .h3-semibold-lg-h2-semibold {
+    @apply text-2xl font-semibold lg:text-3xl;
+  }
+
+  .h4-semibold-lg-h2-semibold {
+    @apply text-[22px] font-semibold lg:text-[28px];
+  }
+  .h4-semibold {
+    @apply text-xl font-semibold;
+  }
+
+  /* paragraph related styles */
+  .paragraph-light {
+    @apply text-sm font-light leading-[20.8px];
+  }
+  .paragraph-semibold {
+    @apply text-sm font-semibold;
+  }
+  .normal-light {
+    @apply text-[15px] font-light;
+  }
+  .normal-medium {
+    @apply text-[15px] font-medium;
+  }
 }
