@@ -24,7 +24,11 @@ module.exports = {
           darkist: "#4D2E84",
           "extra-dark": "#2F1C59",
         },
-        secondary: { light: "#6441C2", DEFAULT: "#581FC1" },
+        secondary: {
+          "extra-light": "#F5F3FF",
+          light: "#6441C2",
+          DEFAULT: "#581FC1",
+        },
         tertiary: {
           DEFAULT: "#646464",
           dark: "#1E1E1E",

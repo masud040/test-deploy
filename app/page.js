@@ -1,3 +1,11 @@
+import { Banner } from "./components/home/Banner";
+import Feature from "./components/home/Feature";
+
 export default function Home() {
-  return <div>Hello World</div>;
+  return (
+    <>
+      <Banner />
+      <Feature />
+    </>
+  );
 }

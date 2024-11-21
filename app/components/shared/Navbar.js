@@ -12,8 +12,12 @@ export default function Navbar() {
   return (
     <>
       <nav className="bg-[#F5F3FF] px-[15px] md:px-10 lg:px-20 py-4 md:py-[19.5px] flex-between gap-2 relative">
-        <div onClick={() => setShowDrawer(true)} className="block md:hidden">
-          <CgMenuLeft className="transition-all duration-500 icon hover:scale-125" />
+        <div className="block md:hidden">
+          {/*navigation drawer controller button */}
+          <CgMenuLeft
+            onClick={() => setShowDrawer(true)}
+            className="transition-all duration-500 icon hover:scale-125"
+          />
         </div>
         <div className="flex-1 flex-between">
           <Logo />

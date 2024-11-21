@@ -10,16 +10,16 @@ export const NavbarRightAction = () => {
           placeholder="Search"
         />
       </li>
-      <li className="block px-2 md:hidden">
+      <li className="block px-2 py-0 md:py-2 md:hidden">
         <IoSearch className="icon" />
       </li>
-      <li className="relative px-2">
+      <li className="relative px-2 py-0 md:py-2">
         <IoBagOutline className="icon" />
         <div className="absolute rounded-full -top-[3px] -right-1 size-5 bg-tertiary-dark flex-center">
           <p className="text-xs text-background-light">0</p>
         </div>
       </li>
-      <li className="px-2">
+      <li className="px-2 py-0 md:py-2">
         <SlUser className="icon" />
       </li>
     </ul>

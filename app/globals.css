@@ -4,7 +4,7 @@
 
 @layer base {
   * {
-    @apply p-0 m-0 scroll-smooth text-background-dark;
+    @apply p-0 m-0 scroll-smooth;
   }
 
   ::-webkit-scrollbar {
@@ -54,6 +54,9 @@
   .grid-start {
     @apply grid items-center justify-start;
   }
+  .h1-bold-lg-h2-bold {
+    @apply text-[23px] md:text-[36px] lg:text-[48px] leading-[29.9px] lg:leading-[62.4px] font-bold;
+  }
   .h3-bold-lg-h2-bold {
     @apply text-[17.63px] lg:text-[29.39px] leading-[24.0px] lg:leading-[40.08px] font-bold;
   }
@@ -68,8 +71,8 @@
   .h4-semibold-lg-h2-semibold {
     @apply text-[22px] font-semibold lg:text-[28px];
   }
-  .h4-semibold {
-    @apply text-xl font-semibold;
+  .xs-normal-lg-h4-normal {
+    @apply text-[13px] leading-[16.9px] lg:text-[19px] lg:leading-[24.7px] font-normal;
   }
 
   /* paragraph related styles */
@@ -80,7 +83,7 @@
     @apply text-sm font-semibold;
   }
   .normal-semibold {
-    @apply text-[16px] font-semibold;
+    @apply text-[13px] lg:text-[16px] leading-[20.8px] font-semibold;
   }
   .normal-medium {
     @apply text-[15px] font-medium;
@@ -103,4 +106,13 @@
   .rounded-btn-with-inset-shadow {
     @apply p-1 text-2xl transition-all duration-300 ease-in-out rounded-full shadow-custom-inset hover:scale-125;
   }
+  .btn-primary {
+    @apply px-6 py-2 transition duration-500 ease-in-out text-background-light bg-primary;
+  }
+  .rounded-btn-primary {
+    @apply p-3 transition duration-500 ease-in-out rounded-full bg-primary;
+  }
+}
+.arrow-rotate {
+  transform: rotate(145deg);
 }
