@@ -1,23 +1,26 @@
-import { IoBagOutline } from "react-icons/io5";
+import { IoBagOutline, IoSearch } from "react-icons/io5";
 import { SlUser } from "react-icons/sl";
 export const NavbarRightAction = () => {
   return (
-    <ul className="gap-2 flex-center">
-      <li className="p-2">
+    <ul className="gap-4 lg:gap-2 flex-center">
+      <li>
         <input
           type="text"
-          className="input-field p-2.5 rounded-3xl"
+          className="hidden p-2 input-field rounded-3xl lg:block"
           placeholder="Search"
         />
       </li>
-      <li className="relative p-2">
-        <IoBagOutline className="size-6 text-tertiary-dark" />
-        <div className="absolute top-0 rounded-full -right-1 size-5 bg-tertiary-dark flex-center">
+      <li className="block px-2 md:hidden">
+        <IoSearch className="icon" />
+      </li>
+      <li className="relative px-2">
+        <IoBagOutline className="icon" />
+        <div className="absolute rounded-full -top-[3px] -right-1 size-5 bg-tertiary-dark flex-center">
           <p className="text-xs text-background-light">0</p>
         </div>
       </li>
-      <li className="p-2">
-        <SlUser className="size-6 text-tertiary-dark" />
+      <li className="px-2">
+        <SlUser className="icon" />
       </li>
     </ul>
   );

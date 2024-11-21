@@ -35,6 +35,10 @@ module.exports = {
           dark: "#1D1D1D",
         },
       },
+      boxShadow: {
+        "custom-inset":
+          "rgb(204, 219, 232) 3px 4px 3px -3px inset, rgb(204, 219, 232) -3px -3px 3px -3px inset",
+      },
 
       maxWidth: {
         "7.5xl": "1344px",

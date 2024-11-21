@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 
 export default function CustomLink({ hrefName, title }) {
   const pathname = usePathname();
-  console.log(pathname === hrefName);
+
   return (
     <li>
       <Link
