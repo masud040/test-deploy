@@ -4,7 +4,7 @@
 
 @layer base {
   * {
-    @apply p-0 m-0 scroll-smooth;
+    @apply p-0 m-0 scroll-smooth text-background-dark;
   }
 
   ::-webkit-scrollbar {
@@ -29,7 +29,7 @@
   }
 
   .flex-between {
-    @apply flex justify-between;
+    @apply flex items-center justify-between;
   }
 
   .flex-end {
@@ -49,6 +49,9 @@
   }
   .grid-start {
     @apply grid items-center justify-start;
+  }
+  .h1-bold {
+    @apply text-[29.39px] leading-[40.08px] font-bold;
   }
 
   .h2-semibold-lg-h1-semibold {
@@ -72,10 +75,20 @@
   .paragraph-semibold {
     @apply text-sm font-semibold;
   }
-  .normal-light {
-    @apply text-[15px] font-light;
+  .normal-semibold {
+    @apply text-[16px] font-semibold;
   }
   .normal-medium {
     @apply text-[15px] font-medium;
+  }
+
+  /* navlink */
+  .nav-link {
+    @apply p-2 capitalize normal-semibold;
+  }
+
+  /* input field */
+  .input-field {
+    @apply w-full transition-colors duration-700 ease-in-out border border-transparent bg-background-light focus:border-primary/60 focus:outline-none;
   }
 }

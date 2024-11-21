@@ -7,9 +7,38 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "480px",
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: {
+          "extra-light": "#F6F5FD",
+          lightest: "#EEECFB",
+          lighter: "#E0DCF8 ",
+          light: "#C8BFF3",
+          soft: "#AC9AEB",
+          DEFAULT: "#8F71E1",
+          medium: "#7E53D4",
+          dark: "#6F42C1",
+          darker: "#5C36A1",
+          darkist: "#4D2E84",
+          "extra-dark": "#2F1C59",
+        },
+        secondary: { light: "#6441C2", DEFAULT: "#581FC1" },
+        tertiary: {
+          DEFAULT: "#646464",
+          dark: "#1E1E1E",
+        },
+
+        background: {
+          light: "#FFFFFF",
+          dark: "#1D1D1D",
+        },
+      },
+
+      maxWidth: {
+        "7.5xl": "1344px",
+        "8xl": "1408px",
       },
     },
   },
