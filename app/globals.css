@@ -23,7 +23,7 @@
 }
 @layer components {
   .container {
-    @apply px-[15px] md:px-20 py-4 md:py-[19.5px] mx-auto w-full;
+    @apply max-w-8xl;
   }
 }
 @layer utilities {
@@ -44,41 +44,25 @@
     @apply flex items-center justify-start;
   }
 
-  .flex-column {
-    @apply flex flex-col;
-  }
+  /* font style related */
 
-  .grid-center {
-    @apply grid items-center justify-center;
-  }
-  .grid-start {
-    @apply grid items-center justify-start;
-  }
-  .h1-bold-lg-h2-bold {
+  .h2-bold-md-h1-bold {
     @apply text-[23px] md:text-[36px] lg:text-[48px] leading-[29.9px] lg:leading-[62.4px] font-bold;
   }
-  .h3-bold-lg-h2-bold {
-    @apply text-[17.63px] lg:text-[29.39px] leading-[24.0px] lg:leading-[40.08px] font-bold;
+  .h4-bold-lg-h1-bold {
+    @apply text-[17.63px] md:text-[29.39px] leading-[24.0px] md:leading-[40.08px] font-bold;
+  }
+  .h4-h3-lg-h2 {
+    @apply text-[16px] leading-[20.8px] md:text-[19px] md:leading-[24.7px];
   }
 
-  /* paragraph related styles */
-
-  .normal-semibold {
+  .h5-semibold-lg-h4-semibold {
     @apply text-[13px] lg:text-[16px] leading-[20.8px] font-semibold;
   }
-  .normal-medium {
-    @apply text-[15px] font-medium;
-  }
-  .normal-bold-lg-h2-bold {
-    @apply text-[16px] leading-[20.8px] md:text-[19px] md:leading-[24.7px] font-semibold;
-  }
 
-  .xs-normal-lg-h4-normal {
-    @apply text-[13px] leading-[16.9px] md:text-[19px] md:leading-[24.7px] font-normal;
-  }
   /* navlink */
   .nav-link {
-    @apply p-2 capitalize normal-semibold;
+    @apply p-2 capitalize h5-semibold-lg-h4-semibold;
   }
   .icon {
     @apply size-6 text-tertiary-dark;
