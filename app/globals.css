@@ -61,34 +61,21 @@
     @apply text-[17.63px] lg:text-[29.39px] leading-[24.0px] lg:leading-[40.08px] font-bold;
   }
 
-  .h2-semibold-lg-h1-semibold {
-    @apply text-3xl font-semibold lg:text-4xl;
-  }
-  .h3-semibold-lg-h2-semibold {
-    @apply text-2xl font-semibold lg:text-3xl;
-  }
-
-  .h4-semibold-lg-h2-semibold {
-    @apply text-[22px] font-semibold lg:text-[28px];
-  }
-  .xs-normal-lg-h4-normal {
-    @apply text-[13px] leading-[16.9px] lg:text-[19px] lg:leading-[24.7px] font-normal;
-  }
-
   /* paragraph related styles */
-  .paragraph-light {
-    @apply text-sm font-light leading-[20.8px];
-  }
-  .paragraph-semibold {
-    @apply text-sm font-semibold;
-  }
+
   .normal-semibold {
     @apply text-[13px] lg:text-[16px] leading-[20.8px] font-semibold;
   }
   .normal-medium {
     @apply text-[15px] font-medium;
   }
+  .normal-bold-lg-h2-bold {
+    @apply text-[16px] leading-[20.8px] md:text-[19px] md:leading-[24.7px] font-semibold;
+  }
 
+  .xs-normal-lg-h4-normal {
+    @apply text-[13px] leading-[16.9px] md:text-[19px] md:leading-[24.7px] font-normal;
+  }
   /* navlink */
   .nav-link {
     @apply p-2 capitalize normal-semibold;
