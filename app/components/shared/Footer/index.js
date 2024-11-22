@@ -18,7 +18,7 @@ export const FooterContainer = () => {
         </div>
         <div className="flex-1 space-y-6">
           <div className="space-y-2">
-            <h3 className="capitalize text-[19px] md:text-[23px] leading-[24.7 px] lg:leading-[29.9px] font-bold">
+            <h3 className="capitalize title-bold md:heading5-bold">
               Sign Up For Our Newseltter!
             </h3>
             <p className="footer-paragraph-text">

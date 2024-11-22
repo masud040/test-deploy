@@ -145,9 +145,9 @@
     "thumbnail": "/images/product-images/saree.png",
     "images": [
       "/images/product-images/saree.png",
-      "/images/product-images/saree-model.png",
+      "/images/product-images/sarree-model.png",
       "/images/product-images/saree.png",
-      "/images/product-images/saree-model.png"
+      "/images/product-images/sarree-model.png"
     ],
     "createdAt": "2024-11-15",
     "sku": "CW-SWR-WL-002",
@@ -199,24 +199,24 @@
   },
   {
     "id": "prod-004",
-    "name": "Traditional Silk Saree",
+    "name": "Traditional Silk sarree",
     "category": "Ethnic Wear",
     "price": 119.99,
     "discount": 15,
     "stock": 20,
     "brand": "ElegantThreads",
-    "description": "Embrace timeless elegance with our Traditional Silk Saree. Handcrafted from pure silk, this saree showcases intricate patterns and a rich texture that exudes luxury. The vibrant color palette is complemented by delicate zari work along the borders, adding a touch of sophistication. Perfect for weddings, festivals, or special occasions, this saree is designed to make you stand out. The soft, lightweight fabric ensures comfort throughout the day, while the matching blouse piece allows for personalized styling. Pair it with traditional jewelry and a sleek hairstyle to complete your look. Each saree is a testament to skilled craftsmanship and attention to detail, making it a cherished addition to your wardrobe. Celebrate your heritage in style with this exquisite saree, a symbol of grace and tradition.",
+    "description": "Embrace timeless elegance with our Traditional Silk sarree. Handcrafted from pure silk, this sarree showcases intricate patterns and a rich texture that exudes luxury. The vibrant color palette is complemented by delicate zari work along the borders, adding a touch of sophistication. Perfect for weddings, festivals, or special occasions, this sarree is designed to make you stand out. The soft, lightweight fabric ensures comfort throughout the day, while the matching blouse piece allows for personalized styling. Pair it with traditional jewelry and a sleek hairstyle to complete your look. Each sarree is a testament to skilled craftsmanship and attention to detail, making it a cherished addition to your wardrobe. Celebrate your heritage in style with this exquisite sarree, a symbol of grace and tradition.",
     "colors": ["Red", "Blue", "Green"],
-    "tags": ["saree", "silk", "ethnic"],
+    "tags": ["sarree", "silk", "ethnic"],
     "thumbnail": "/images/product-images/sarree-model.png",
     "images": [
       "/images/product-images/sarree-model.png",
-      "/images/product-images/saree.png",
-      "/images/product-images/saree-model.png",
-      "/images/product-images/saree.png"
+      "/images/product-images/sarree.png",
+      "/images/product-images/sarree-model.png",
+      "/images/product-images/sarree.png"
     ],
     "createdAt": "2024-11-10",
-    "sku": "ET-SAREE-SLK-003",
+    "sku": "ET-sarree-SLK-003",
     "details": {
       "material": "100% Organic Cotton",
       "fit": "Regular",
@@ -406,12 +406,12 @@
     "description": "Crafted from 100% organic cotton, our Classic White T-Shirt combines comfort and sustainability. Designed with a regular fit, this wardrobe essential is perfect for any casual occasion. The fabric is lightweight and breathable, making it ideal for warm weather. Its premium stitching ensures long-lasting durability, while the soft texture feels gentle on the skin. The t-shirt features a classic round neckline and short sleeves, making it easy to pair with jeans, shorts, or skirts. Ideal for layering or wearing on its own, it is versatile enough for both men and women. Made with eco-friendly dyes, this t-shirt is not only stylish but also contributes to reducing your carbon footprint. Whether you're heading to the park, running errands, or lounging at home, this t-shirt offers unmatched comfort and timeless style. It’s a staple piece that you’ll reach for time and again.",
     "sizes": ["S", "M", "L", "XL"],
     "tags": ["cotton", "classic", "unisex"],
-    "thumbnail": "/images/product-images/saree.png",
+    "thumbnail": "/images/product-images/t-shirt1.webp",
     "images": [
-      "/images/product-images/saree.png",
-      "/images/product-images/saree-model.png",
-      "/images/product-images/saree.png",
-      "/images/product-images/saree-model.png"
+      "/images/product-images/t-shirt1.webp",
+      "/images/product-images/white-shirt.png",
+      "/images/product-images/t-shirt1.webp",
+      "/images/product-images/white-shirt.png"
     ],
     "createdAt": "2024-11-21",
     "sku": "CL-TS-WHT-001",
@@ -472,12 +472,12 @@
     "description": "Stay warm this winter with our premium Woolen Sweater. This classic piece is made from 100% wool, offering unbeatable warmth and comfort. Its snug fit and ribbed cuffs provide a tailored look, while the breathable fabric ensures you stay cozy without feeling overheated. Featuring a high neckline and a subtle cable-knit design, this sweater pairs perfectly with jeans or trousers for a smart-casual appearance. The sweater is available in neutral colors like grey and beige, making it easy to mix and match with your wardrobe. Ideal for chilly mornings, office wear, or weekend getaways, this versatile sweater is a winter wardrobe must-have. Its durable construction and timeless design ensure that it remains a staple for seasons to come. Whether you're sipping hot cocoa by the fire or exploring the outdoors, this sweater will keep you comfortable and stylish.",
     "sizes": ["M", "L", "XL"],
     "tags": ["sweater", "wool", "winter"],
-    "thumbnail": "/images/product-images/white-shirt.png",
+    "thumbnail": "/images/product-images/saree.png",
     "images": [
-      "/images/product-images/white-shirt.png",
-      "/images/product-images/t-shirt1.webp",
-      "/images/product-images/white-shirt.png",
-      "/images/product-images/t-shirt1.webp"
+      "/images/product-images/saree.png",
+      "/images/product-images/sarree-model.png",
+      "/images/product-images/saree.png",
+      "/images/product-images/sarree-model.png"
     ],
     "createdAt": "2024-11-15",
     "sku": "CW-SWR-WL-002",
@@ -529,24 +529,24 @@
   },
   {
     "id": "prod-009",
-    "name": "Traditional Silk Saree",
+    "name": "Traditional Silk sarree",
     "category": "Ethnic Wear",
     "price": 119.99,
     "discount": 15,
     "stock": 20,
     "brand": "ElegantThreads",
-    "description": "Embrace timeless elegance with our Traditional Silk Saree. Handcrafted from pure silk, this saree showcases intricate patterns and a rich texture that exudes luxury. The vibrant color palette is complemented by delicate zari work along the borders, adding a touch of sophistication. Perfect for weddings, festivals, or special occasions, this saree is designed to make you stand out. The soft, lightweight fabric ensures comfort throughout the day, while the matching blouse piece allows for personalized styling. Pair it with traditional jewelry and a sleek hairstyle to complete your look. Each saree is a testament to skilled craftsmanship and attention to detail, making it a cherished addition to your wardrobe. Celebrate your heritage in style with this exquisite saree, a symbol of grace and tradition.",
+    "description": "Embrace timeless elegance with our Traditional Silk sarree. Handcrafted from pure silk, this sarree showcases intricate patterns and a rich texture that exudes luxury. The vibrant color palette is complemented by delicate zari work along the borders, adding a touch of sophistication. Perfect for weddings, festivals, or special occasions, this sarree is designed to make you stand out. The soft, lightweight fabric ensures comfort throughout the day, while the matching blouse piece allows for personalized styling. Pair it with traditional jewelry and a sleek hairstyle to complete your look. Each sarree is a testament to skilled craftsmanship and attention to detail, making it a cherished addition to your wardrobe. Celebrate your heritage in style with this exquisite sarree, a symbol of grace and tradition.",
     "colors": ["Red", "Blue", "Green"],
-    "tags": ["saree", "silk", "ethnic"],
-    "thumbnail": "/images/product-images/saree-model.png",
+    "tags": ["sarree", "silk", "ethnic"],
+    "thumbnail": "/images/product-images/sarree-model.png",
     "images": [
-      "/images/product-images/saree-model.png",
-      "/images/product-images/saree.png",
-      "/images/product-images/saree-model.png",
-      "/images/product-images/saree.png"
+      "/images/product-images/sarree-model.png",
+      "/images/product-images/sarree.png",
+      "/images/product-images/sarree-model.png",
+      "/images/product-images/sarree.png"
     ],
     "createdAt": "2024-11-10",
-    "sku": "ET-SAREE-SLK-003",
+    "sku": "ET-sarree-SLK-003",
     "details": {
       "material": "100% Organic Cotton",
       "fit": "Regular",
@@ -604,12 +604,12 @@
     "description": "Crafted from 100% organic cotton, our Classic White T-Shirt combines comfort and sustainability. Designed with a regular fit, this wardrobe essential is perfect for any casual occasion. The fabric is lightweight and breathable, making it ideal for warm weather. Its premium stitching ensures long-lasting durability, while the soft texture feels gentle on the skin. The t-shirt features a classic round neckline and short sleeves, making it easy to pair with jeans, shorts, or skirts. Ideal for layering or wearing on its own, it is versatile enough for both men and women. Made with eco-friendly dyes, this t-shirt is not only stylish but also contributes to reducing your carbon footprint. Whether you're heading to the park, running errands, or lounging at home, this t-shirt offers unmatched comfort and timeless style. It’s a staple piece that you’ll reach for time and again.",
     "sizes": ["S", "M", "L", "XL"],
     "tags": ["cotton", "classic", "unisex"],
-    "thumbnail": "/images/product-images/saree.png",
+    "thumbnail": "/images/product-images/t-shirt1.webp",
     "images": [
-      "/images/product-images/saree.png",
-      "/images/product-images/saree-model.png",
-      "/images/product-images/saree.png",
-      "/images/product-images/saree-model.png"
+      "/images/product-images/t-shirt1.webp",
+      "/images/product-images/white-shirt.png",
+      "/images/product-images/t-shirt1.webp",
+      "/images/product-images/white-shirt.png"
     ],
     "createdAt": "2024-11-21",
     "sku": "CL-TS-WHT-001",
@@ -793,24 +793,24 @@
   },
   {
     "id": "prod-013",
-    "name": "Festive Cotton Saree",
+    "name": "Festive Cotton sarree",
     "category": "Ethnic Wear",
     "price": 8999,
     "discount": 420,
     "stock": 25,
     "brand": "GraceEthnic",
-    "description": "Add a touch of elegance to your festive wardrobe with our Festive Cotton Saree. Woven with soft, breathable cotton, this saree combines traditional craftsmanship with modern comfort. The vibrant colors and intricate patterns make it a perfect choice for celebrations and special occasions. Its lightweight fabric ensures all-day comfort, while the zari-detailed border adds a hint of luxury. The saree comes with a matching blouse piece, allowing for a customized fit. Style it with statement jewelry and a bold lip color for a complete festive look. Whether it's a wedding, a cultural event, or a family gathering, this saree guarantees timeless style and grace. Its easy maintenance and high-quality fabric make it a practical yet stylish addition to your ethnic collection.",
+    "description": "Add a touch of elegance to your festive wardrobe with our Festive Cotton sarree. Woven with soft, breathable cotton, this sarree combines traditional craftsmanship with modern comfort. The vibrant colors and intricate patterns make it a perfect choice for celebrations and special occasions. Its lightweight fabric ensures all-day comfort, while the zari-detailed border adds a hint of luxury. The sarree comes with a matching blouse piece, allowing for a customized fit. Style it with statement jewelry and a bold lip color for a complete festive look. Whether it's a wedding, a cultural event, or a family gathering, this sarree guarantees timeless style and grace. Its easy maintenance and high-quality fabric make it a practical yet stylish addition to your ethnic collection.",
     "colors": ["Yellow", "Pink", "Teal"],
-    "tags": ["saree", "cotton", "festive"],
+    "tags": ["sarree", "cotton", "festive"],
     "thumbnail": "/images/product-images/saree.png",
     "images": [
       "/images/product-images/saree.png",
-      "/images/product-images/saree-model.png",
+      "/images/product-images/sarree-model.png",
       "/images/product-images/saree.png",
-      "/images/product-images/saree-model.png"
+      "/images/product-images/sarree-model.png"
     ],
     "createdAt": "2024-11-14",
-    "sku": "GE-SAREE-CTN-007",
+    "sku": "GE-sarree-CTN-007",
     "details": {
       "material": "100% Organic Cotton",
       "fit": "Regular",

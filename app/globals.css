@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* export another file class */
 @import url("./styles/theme.css");
 @layer base {
   * {

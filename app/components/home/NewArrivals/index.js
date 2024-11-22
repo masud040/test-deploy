@@ -6,7 +6,7 @@ export default async function NewArrivalContainer() {
   const newArraivalData = await getNewArraivalProduct();
 
   return (
-    <section className="px-[15px] md:px-10 lg:px-20 py-4 md:py-[19.5px]">
+    <section className="px-[15px] my-8 md:px-10 lg:px-20 py-4 md:py-[19px]">
       <SectionTitle
         sectionTitle="New Arrivals"
         sectionLabel="Featured Product"

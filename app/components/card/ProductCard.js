@@ -9,7 +9,7 @@ export const ProductCard = ({ product }) => {
           <Image
             src={product.thumbnail}
             alt={product.name}
-            objectFit="cover"
+            objectFit="contain"
             fill
             className="transition-all duration-500 ease-in-out group-hover:scale-105"
           />

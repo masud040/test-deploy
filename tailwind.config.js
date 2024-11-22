@@ -55,7 +55,5 @@ module.exports = {
   },
   plugins: [
     require("@tailwindcss/typography"), // Plugin for better typography
-    require("@tailwindcss/forms"), // Plugin for form styling
-    require("@tailwindcss/aspect-ratio"), // Plugin for aspect ratios
   ],
 };
