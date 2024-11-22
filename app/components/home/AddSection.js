@@ -5,14 +5,14 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 
 export default function AddSection() {
   return (
-    <section className="px-0 md:px-10 lg:px-20 py-4 md:py-[19.5px">
+    <section className="px-0 py-4 my-8 md:px-10 lg:px-20">
       <div className="flex flex-col items-center w-full gap-6 px-6 pt-6 md:flex-row bg-primary-lightest md:px-10 lg:px-16">
         <div className="flex-1 space-y-2 text-center lg:space-y-4 md:text-start">
           <h2 className="italic text-[24px] leading-[42.14px] font-normal text-primary-darker">
             Big Deal
           </h2>
 
-          <h2 className="h1-bold-lg-extra-large">
+          <h2 className="heading4-bold-lg-heading1">
             <span className="text-primary-darker">30%</span> Of for New
             Customers
           </h2>

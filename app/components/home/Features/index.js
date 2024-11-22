@@ -26,7 +26,7 @@ export const FeaturesContainer = () => {
     getFeatures();
   }, []);
   return (
-    <section className="px-[15px] my-8 md:px-10 lg:px-20 py-4 md:py-[19.5px] ">
+    <section className="px-[15px] my-8 md:px-10 lg:px-20 py-4 md:py-[19.5px]">
       {/* showing slider when medium  and large screen*/}
       <div className="hidden md:block">
         <Swiper

@@ -10,10 +10,12 @@
     "description": "A classic white t-shirt made from 100% organic cotton. Perfect for casual wear.",
     "sizes": ["S", "M", "L", "XL"],
     "tags": ["cotton", "classic", "unisex"],
-    "thumbnail": "https://example.com/images/products/white-tshirt.jpg",
+    "thumbnail": "/images/product-images/hoodie1.png",
     "images": [
-      "https://example.com/images/products/white-tshirt-1.jpg",
-      "https://example.com/images/products/white-tshirt-2.jpg"
+      "/images/product-images/hoodie1.png",
+      "/images/product-images/hoodie2.png",
+      "/images/product-images/hoodie3.png",
+      "/images/product-images/hoodie4.png"
     ],
     "createdAt": "2024-11-21",
     "sku": "CL-TS-WHT-001",
@@ -67,17 +69,19 @@
     "id": "prod-002",
     "name": "Classic White T-Shirt",
     "category": "Clothing",
-    "price": 19.99,
-    "discount": 10,
+    "price": 1999,
+    "discount": 110,
     "stock": 50,
     "brand": "UrbanStyle",
     "description": "Crafted from 100% organic cotton, our Classic White T-Shirt combines comfort and sustainability. Designed with a regular fit, this wardrobe essential is perfect for any casual occasion. The fabric is lightweight and breathable, making it ideal for warm weather. Its premium stitching ensures long-lasting durability, while the soft texture feels gentle on the skin. The t-shirt features a classic round neckline and short sleeves, making it easy to pair with jeans, shorts, or skirts. Ideal for layering or wearing on its own, it is versatile enough for both men and women. Made with eco-friendly dyes, this t-shirt is not only stylish but also contributes to reducing your carbon footprint. Whether you're heading to the park, running errands, or lounging at home, this t-shirt offers unmatched comfort and timeless style. It’s a staple piece that you’ll reach for time and again.",
     "sizes": ["S", "M", "L", "XL"],
     "tags": ["cotton", "classic", "unisex"],
-    "thumbnail": "https://example.com/images/products/white-tshirt.jpg",
+    "thumbnail": "/images/product-images/white-shirt.png",
     "images": [
-      "https://example.com/images/products/white-tshirt-1.jpg",
-      "https://example.com/images/products/white-tshirt-2.jpg"
+      "/images/product-images/white-shirt.png",
+      "/images/product-images/t-shirt1.webp",
+      "/images/product-images/white-shirt.png",
+      "/images/product-images/t-shirt1.webp"
     ],
     "createdAt": "2024-11-21",
     "sku": "CL-TS-WHT-001",
@@ -129,19 +133,21 @@
   },
   {
     "id": "prod-003",
-    "name": "Winter Woolen Sweater",
-    "category": "Winter Collection",
-    "price": 49.99,
-    "discount": 20,
+    "name": "Indial Sharee",
+    "category": "Clothing",
+    "price": 3900,
+    "discount": 100,
     "stock": 30,
     "brand": "CozyWear",
     "description": "Stay warm this winter with our premium Woolen Sweater. This classic piece is made from 100% wool, offering unbeatable warmth and comfort. Its snug fit and ribbed cuffs provide a tailored look, while the breathable fabric ensures you stay cozy without feeling overheated. Featuring a high neckline and a subtle cable-knit design, this sweater pairs perfectly with jeans or trousers for a smart-casual appearance. The sweater is available in neutral colors like grey and beige, making it easy to mix and match with your wardrobe. Ideal for chilly mornings, office wear, or weekend getaways, this versatile sweater is a winter wardrobe must-have. Its durable construction and timeless design ensure that it remains a staple for seasons to come. Whether you're sipping hot cocoa by the fire or exploring the outdoors, this sweater will keep you comfortable and stylish.",
     "sizes": ["M", "L", "XL"],
     "tags": ["sweater", "wool", "winter"],
-    "thumbnail": "https://example.com/images/products/woolen-sweater.jpg",
+    "thumbnail": "/images/product-images/saree.png",
     "images": [
-      "https://example.com/images/products/woolen-sweater-1.jpg",
-      "https://example.com/images/products/woolen-sweater-2.jpg"
+      "/images/product-images/saree.png",
+      "/images/product-images/saree-model.png",
+      "/images/product-images/saree.png",
+      "/images/product-images/saree-model.png"
     ],
     "createdAt": "2024-11-15",
     "sku": "CW-SWR-WL-002",
@@ -202,10 +208,12 @@
     "description": "Embrace timeless elegance with our Traditional Silk Saree. Handcrafted from pure silk, this saree showcases intricate patterns and a rich texture that exudes luxury. The vibrant color palette is complemented by delicate zari work along the borders, adding a touch of sophistication. Perfect for weddings, festivals, or special occasions, this saree is designed to make you stand out. The soft, lightweight fabric ensures comfort throughout the day, while the matching blouse piece allows for personalized styling. Pair it with traditional jewelry and a sleek hairstyle to complete your look. Each saree is a testament to skilled craftsmanship and attention to detail, making it a cherished addition to your wardrobe. Celebrate your heritage in style with this exquisite saree, a symbol of grace and tradition.",
     "colors": ["Red", "Blue", "Green"],
     "tags": ["saree", "silk", "ethnic"],
-    "thumbnail": "https://example.com/images/products/silk-saree.jpg",
+    "thumbnail": "/images/product-images/sarree-model.png",
     "images": [
-      "https://example.com/images/products/silk-saree-1.jpg",
-      "https://example.com/images/products/silk-saree-2.jpg"
+      "/images/product-images/sarree-model.png",
+      "/images/product-images/saree.png",
+      "/images/product-images/saree-model.png",
+      "/images/product-images/saree.png"
     ],
     "createdAt": "2024-11-10",
     "sku": "ET-SAREE-SLK-003",
@@ -259,17 +267,19 @@
     "id": "prod-005",
     "name": "Formal Cotton Shirt",
     "category": "Clothing",
-    "price": 39.99,
-    "discount": 10,
+    "price": 3999,
+    "discount": 110,
     "stock": 40,
     "brand": "ClassicFit",
     "description": "Elevate your office wardrobe with our Formal Cotton Shirt. Made from premium cotton fabric, this shirt is designed for comfort and sophistication. The tailored fit ensures a polished appearance, while the breathable material keeps you cool during long hours. Featuring a crisp collar, full sleeves, and button-down design, this shirt is ideal for meetings, presentations, or formal events. Available in classic colors like white, blue, and light pink, it pairs effortlessly with trousers or blazers. The wrinkle-resistant fabric makes it easy to maintain, while the subtle stitching details add a touch of elegance. Whether you're heading to work or attending a business dinner, this shirt guarantees a sharp and professional look. Add this versatile piece to your wardrobe and experience the perfect blend of style and comfort.",
     "sizes": ["M", "L", "XL", "XXL"],
     "tags": ["shirt", "cotton", "formal"],
-    "thumbnail": "https://example.com/images/products/formal-shirt.jpg",
+    "thumbnail": "/images/product-images/shirt.png",
     "images": [
-      "https://example.com/images/products/formal-shirt-1.jpg",
-      "https://example.com/images/products/formal-shirt-2.jpg"
+      "/images/product-images/shirt.png",
+      "/images/product-images/shirt1.png",
+      "/images/product-images/shirt.png",
+      "/images/product-images/shirt1.png"
     ],
     "createdAt": "2024-11-08",
     "sku": "CF-SHRT-CTN-004",
@@ -330,10 +340,12 @@
     "description": "A classic white t-shirt made from 100% organic cotton. Perfect for casual wear.",
     "sizes": ["S", "M", "L", "XL"],
     "tags": ["cotton", "classic", "unisex"],
-    "thumbnail": "https://example.com/images/products/white-tshirt.jpg",
+    "thumbnail": "/images/product-images/hoodie6.png",
     "images": [
-      "https://example.com/images/products/white-tshirt-1.jpg",
-      "https://example.com/images/products/white-tshirt-2.jpg"
+      "/images/product-images/hoodie6.png",
+      "/images/product-images/hoodie2.png",
+      "/images/product-images/hoodie3.png",
+      "/images/product-images/hoodie4.png"
     ],
     "createdAt": "2024-11-21",
     "sku": "CL-TS-WHT-001",
@@ -387,17 +399,19 @@
     "id": "prod-007",
     "name": "Classic White T-Shirt",
     "category": "Clothing",
-    "price": 19.99,
-    "discount": 10,
+    "price": 1999,
+    "discount": 110,
     "stock": 50,
     "brand": "UrbanStyle",
-    "description": "Crafted from 100% organic cotton, our Classic White T-Shirt combines comfort and sustainability. Designed with a regular fit, this wardrobe essential is perfect for any casual occasion. The fabric is lightweight and breathable, making it ideal for warm weather. Its premium stitching ensures long-lasting durability, while the soft texture feels gentle on the skin. The t-shirt features a classic round neckline and short sleeves, making it easy to pair with jeans, shorts, or skirts. Ideal for layering or wearing on its own, it is versatile enough for both men and women.",
+    "description": "Crafted from 100% organic cotton, our Classic White T-Shirt combines comfort and sustainability. Designed with a regular fit, this wardrobe essential is perfect for any casual occasion. The fabric is lightweight and breathable, making it ideal for warm weather. Its premium stitching ensures long-lasting durability, while the soft texture feels gentle on the skin. The t-shirt features a classic round neckline and short sleeves, making it easy to pair with jeans, shorts, or skirts. Ideal for layering or wearing on its own, it is versatile enough for both men and women. Made with eco-friendly dyes, this t-shirt is not only stylish but also contributes to reducing your carbon footprint. Whether you're heading to the park, running errands, or lounging at home, this t-shirt offers unmatched comfort and timeless style. It’s a staple piece that you’ll reach for time and again.",
     "sizes": ["S", "M", "L", "XL"],
     "tags": ["cotton", "classic", "unisex"],
-    "thumbnail": "https://example.com/images/products/white-tshirt.jpg",
+    "thumbnail": "/images/product-images/saree.png",
     "images": [
-      "https://example.com/images/products/white-tshirt-1.jpg",
-      "https://example.com/images/products/white-tshirt-2.jpg"
+      "/images/product-images/saree.png",
+      "/images/product-images/saree-model.png",
+      "/images/product-images/saree.png",
+      "/images/product-images/saree-model.png"
     ],
     "createdAt": "2024-11-21",
     "sku": "CL-TS-WHT-001",
@@ -449,19 +463,21 @@
   },
   {
     "id": "prod-008",
-    "name": "Winter Woolen Sweater",
-    "category": "Winter Collection",
-    "price": 49.99,
-    "discount": 20,
+    "name": "Indial Sharee",
+    "category": "Clothing",
+    "price": 3900,
+    "discount": 100,
     "stock": 30,
     "brand": "CozyWear",
-    "description": "Stay warm this winter with our premium Woolen Sweater. This classic piece is made from 100% wool, offering unbeatable warmth and comfort. Its snug fit and ribbed cuffs provide a tailored look, while the breathable fabric ensures you stay cozy without feeling overheated. Featuring a high neckline and a subtle cable-knit design, this sweater pairs perfectly with jeans or trousers for a smart-casual appearance. The sweater is available in neutral colors like grey and beige, making it easy to mix and match with your wardrobe. Ideal for chilly mornings, office wear, or weekend getaways",
+    "description": "Stay warm this winter with our premium Woolen Sweater. This classic piece is made from 100% wool, offering unbeatable warmth and comfort. Its snug fit and ribbed cuffs provide a tailored look, while the breathable fabric ensures you stay cozy without feeling overheated. Featuring a high neckline and a subtle cable-knit design, this sweater pairs perfectly with jeans or trousers for a smart-casual appearance. The sweater is available in neutral colors like grey and beige, making it easy to mix and match with your wardrobe. Ideal for chilly mornings, office wear, or weekend getaways, this versatile sweater is a winter wardrobe must-have. Its durable construction and timeless design ensure that it remains a staple for seasons to come. Whether you're sipping hot cocoa by the fire or exploring the outdoors, this sweater will keep you comfortable and stylish.",
     "sizes": ["M", "L", "XL"],
     "tags": ["sweater", "wool", "winter"],
-    "thumbnail": "https://example.com/images/products/woolen-sweater.jpg",
+    "thumbnail": "/images/product-images/white-shirt.png",
     "images": [
-      "https://example.com/images/products/woolen-sweater-1.jpg",
-      "https://example.com/images/products/woolen-sweater-2.jpg"
+      "/images/product-images/white-shirt.png",
+      "/images/product-images/t-shirt1.webp",
+      "/images/product-images/white-shirt.png",
+      "/images/product-images/t-shirt1.webp"
     ],
     "createdAt": "2024-11-15",
     "sku": "CW-SWR-WL-002",
@@ -519,13 +535,15 @@
     "discount": 15,
     "stock": 20,
     "brand": "ElegantThreads",
-    "description": "Embrace timeless elegance with our Traditional Silk Saree. Handcrafted from pure silk, this saree showcases intricate patterns and a rich texture that exudes luxury. The vibrant color palette is complemented by delicate zari work along the borders, adding a touch of sophistication. Perfect for weddings, festivals, or special occasions, this saree is designed to make you stand out.",
+    "description": "Embrace timeless elegance with our Traditional Silk Saree. Handcrafted from pure silk, this saree showcases intricate patterns and a rich texture that exudes luxury. The vibrant color palette is complemented by delicate zari work along the borders, adding a touch of sophistication. Perfect for weddings, festivals, or special occasions, this saree is designed to make you stand out. The soft, lightweight fabric ensures comfort throughout the day, while the matching blouse piece allows for personalized styling. Pair it with traditional jewelry and a sleek hairstyle to complete your look. Each saree is a testament to skilled craftsmanship and attention to detail, making it a cherished addition to your wardrobe. Celebrate your heritage in style with this exquisite saree, a symbol of grace and tradition.",
     "colors": ["Red", "Blue", "Green"],
     "tags": ["saree", "silk", "ethnic"],
-    "thumbnail": "https://example.com/images/products/silk-saree.jpg",
+    "thumbnail": "/images/product-images/saree-model.png",
     "images": [
-      "https://example.com/images/products/silk-saree-1.jpg",
-      "https://example.com/images/products/silk-saree-2.jpg"
+      "/images/product-images/saree-model.png",
+      "/images/product-images/saree.png",
+      "/images/product-images/saree-model.png",
+      "/images/product-images/saree.png"
     ],
     "createdAt": "2024-11-10",
     "sku": "ET-SAREE-SLK-003",
@@ -577,22 +595,24 @@
   },
   {
     "id": "prod-010",
-    "name": "Formal Cotton Shirt",
+    "name": "Classic White T-Shirt",
     "category": "Clothing",
-    "price": 39.99,
+    "price": 19.99,
     "discount": 10,
-    "stock": 40,
-    "brand": "ClassicFit",
-    "description": "Elevate your office wardrobe with our Formal Cotton Shirt. Made from premium cotton fabric, this shirt is designed for comfort and sophistication. The tailored fit ensures a polished appearance, while the breathable material keeps you cool during long hours. Featuring a crisp collar, full sleeves, and button-down design, this shirt is ideal for meetings, presentations, or formal events. Available in classic colors like white, blue, and light pink, it pairs effortlessly with trousers or blazers.",
-    "sizes": ["M", "L", "XL", "XXL"],
-    "tags": ["shirt", "cotton", "formal"],
-    "thumbnail": "https://example.com/images/products/formal-shirt.jpg",
+    "stock": 50,
+    "brand": "UrbanStyle",
+    "description": "Crafted from 100% organic cotton, our Classic White T-Shirt combines comfort and sustainability. Designed with a regular fit, this wardrobe essential is perfect for any casual occasion. The fabric is lightweight and breathable, making it ideal for warm weather. Its premium stitching ensures long-lasting durability, while the soft texture feels gentle on the skin. The t-shirt features a classic round neckline and short sleeves, making it easy to pair with jeans, shorts, or skirts. Ideal for layering or wearing on its own, it is versatile enough for both men and women. Made with eco-friendly dyes, this t-shirt is not only stylish but also contributes to reducing your carbon footprint. Whether you're heading to the park, running errands, or lounging at home, this t-shirt offers unmatched comfort and timeless style. It’s a staple piece that you’ll reach for time and again.",
+    "sizes": ["S", "M", "L", "XL"],
+    "tags": ["cotton", "classic", "unisex"],
+    "thumbnail": "/images/product-images/saree.png",
     "images": [
-      "https://example.com/images/products/formal-shirt-1.jpg",
-      "https://example.com/images/products/formal-shirt-2.jpg"
+      "/images/product-images/saree.png",
+      "/images/product-images/saree-model.png",
+      "/images/product-images/saree.png",
+      "/images/product-images/saree-model.png"
     ],
-    "createdAt": "2024-11-08",
-    "sku": "CF-SHRT-CTN-004",
+    "createdAt": "2024-11-21",
+    "sku": "CL-TS-WHT-001",
     "details": {
       "material": "100% Organic Cotton",
       "fit": "Regular",
@@ -641,19 +661,21 @@
   },
   {
     "id": "prod-011",
-    "name": "Cozy Knitted Scarf",
+    "name": "Three Piss",
     "category": "Winter Collection",
-    "price": 24.99,
-    "discount": 5,
+    "price": 2499,
+    "discount": 150,
     "stock": 70,
     "brand": "WinterHaven",
     "description": "Wrap yourself in warmth with our Cozy Knitted Scarf, the perfect accessory for chilly days. Made with high-quality acrylic yarn, this scarf offers both style and comfort. Its intricate knitting pattern provides texture, while the long length ensures versatile styling options. Drape it around your neck for a casual look or wrap it snugly for extra warmth. Available in a variety of neutral and vibrant colors, it pairs effortlessly with coats, jackets, or sweaters. Lightweight yet insulating, it’s ideal for outdoor adventures, commutes, or casual outings. The durable fabric is easy to care for, retaining its softness even after multiple washes. Whether you’re heading to the office or taking a winter stroll, this scarf adds a cozy and fashionable layer to your outfit. Elevate your winter wardrobe with this must-have accessory, perfect for gifting or personal use.",
     "colors": ["Grey", "Beige", "Maroon"],
     "tags": ["scarf", "knitted", "winter"],
-    "thumbnail": "https://example.com/images/products/knitted-scarf.jpg",
+    "thumbnail": "/images/product-images/threepiss.png",
     "images": [
-      "https://example.com/images/products/knitted-scarf-1.jpg",
-      "https://example.com/images/products/knitted-scarf-2.jpg"
+      "/images/product-images/threepiss.png",
+      "/images/product-images/threepiss.png",
+      "/images/product-images/threepiss.png",
+      "/images/product-images/threepiss.png"
     ],
     "createdAt": "2024-11-12",
     "sku": "WH-SCARF-KNT-005",
@@ -704,20 +726,22 @@
     ]
   },
   {
-    "id": "prod-006",
+    "id": "prod-012",
     "name": "Denim Skinny Jeans",
     "category": "Clothing",
-    "price": 59.99,
-    "discount": 15,
+    "price": 2499,
+    "discount": 200,
     "stock": 35,
     "brand": "DenimStyle",
     "description": "Our Denim Skinny Jeans are a wardrobe essential, combining comfort and style seamlessly. Made with a stretchable cotton blend, these jeans offer a flattering fit that hugs your body in all the right places. The mid-rise design ensures a secure and comfortable feel, while the classic five-pocket layout adds functionality. Perfect for casual outings, pair these jeans with a graphic tee for a relaxed look or a blouse for a chic vibe. The high-quality denim is both durable and breathable, making it suitable for all-day wear. Available in versatile washes like dark indigo, light blue, and black, these jeans are designed to match every outfit. Whether you’re running errands, meeting friends, or heading to a casual dinner, these jeans are your go-to choice for effortless fashion.",
     "sizes": ["S", "M", "L", "XL"],
     "tags": ["jeans", "denim", "casual"],
-    "thumbnail": "https://example.com/images/products/skinny-jeans.jpg",
+    "thumbnail": "/images/product-images/women-pant.png",
     "images": [
-      "https://example.com/images/products/skinny-jeans-1.jpg",
-      "https://example.com/images/products/skinny-jeans-2.jpg"
+      "/images/product-images/women-pant.png",
+      "/images/product-images/women-pant.png",
+      "/images/product-images/women-pant.png",
+      "/images/product-images/women-pant.png"
     ],
     "createdAt": "2024-11-10",
     "sku": "DS-JEANS-DNM-006",
@@ -768,20 +792,22 @@
     ]
   },
   {
-    "id": "prod-012",
+    "id": "prod-013",
     "name": "Festive Cotton Saree",
     "category": "Ethnic Wear",
-    "price": 89.99,
-    "discount": 20,
+    "price": 8999,
+    "discount": 420,
     "stock": 25,
     "brand": "GraceEthnic",
     "description": "Add a touch of elegance to your festive wardrobe with our Festive Cotton Saree. Woven with soft, breathable cotton, this saree combines traditional craftsmanship with modern comfort. The vibrant colors and intricate patterns make it a perfect choice for celebrations and special occasions. Its lightweight fabric ensures all-day comfort, while the zari-detailed border adds a hint of luxury. The saree comes with a matching blouse piece, allowing for a customized fit. Style it with statement jewelry and a bold lip color for a complete festive look. Whether it's a wedding, a cultural event, or a family gathering, this saree guarantees timeless style and grace. Its easy maintenance and high-quality fabric make it a practical yet stylish addition to your ethnic collection.",
     "colors": ["Yellow", "Pink", "Teal"],
     "tags": ["saree", "cotton", "festive"],
-    "thumbnail": "https://example.com/images/products/cotton-saree.jpg",
+    "thumbnail": "/images/product-images/saree.png",
     "images": [
-      "https://example.com/images/products/cotton-saree-1.jpg",
-      "https://example.com/images/products/cotton-saree-2.jpg"
+      "/images/product-images/saree.png",
+      "/images/product-images/saree-model.png",
+      "/images/product-images/saree.png",
+      "/images/product-images/saree-model.png"
     ],
     "createdAt": "2024-11-14",
     "sku": "GE-SAREE-CTN-007",
@@ -832,23 +858,91 @@
     ]
   },
   {
-    "id": "prod-013",
+    "id": "prod-014",
     "name": "Casual Chino Pants",
     "category": "Clothing",
-    "price": 49.99,
-    "discount": 10,
+    "price": 4999,
+    "discount": 310,
     "stock": 40,
     "brand": "ModernFit",
     "description": "Experience the perfect balance of style and comfort with our Casual Chino Pants. Made from a premium cotton blend, these pants are designed for all-day wear. The slim-fit cut provides a contemporary silhouette, while the stretchable fabric ensures maximum comfort and flexibility. Ideal for both work and casual outings, these chinos are available in neutral shades like khaki, navy, and grey. The wrinkle-resistant material makes them a practical choice for busy days. Featuring side and back pockets, they offer ample storage without compromising on style. Pair them with a button-down shirt for a business casual look or a polo tee for a relaxed weekend vibe. Durable, versatile, and stylish, these chinos are a must-have addition to your wardrobe.",
     "sizes": ["M", "L", "XL", "XXL"],
     "tags": ["chinos", "pants", "casual"],
-    "thumbnail": "https://example.com/images/products/chino-pants.jpg",
+    "thumbnail": "/images/product-images/women-pant.png",
     "images": [
-      "https://example.com/images/products/chino-pants-1.jpg",
-      "https://example.com/images/products/chino-pants-2.jpg"
+      "/images/product-images/women-pant.png",
+      "/images/product-images/women-pant.png",
+      "/images/product-images/women-pant.png",
+      "/images/product-images/women-pant.png"
     ],
     "createdAt": "2024-11-18",
     "sku": "MF-CHINO-PTS-008",
+    "details": {
+      "material": "100% Organic Cotton",
+      "fit": "Regular",
+      "careInstructions": "Machine wash cold, tumble dry low",
+      "origin": "Made in India"
+    },
+    "reviews": [
+      {
+        "user": "JohnDoe",
+        "rating": 4.5,
+        "comment": "Great fit and comfortable fabric!",
+        "date": "2024-10-01"
+      },
+      {
+        "user": "JaneSmith",
+        "rating": 5,
+        "comment": "Perfect for everyday use.",
+        "date": "2024-11-15"
+      }
+    ],
+    "rating": {
+      "averageRating": 4.8,
+      "totalRatings": 25,
+      "ratingBreakdown": {
+        "5": 20,
+        "4": 3,
+        "3": 1,
+        "2": 1,
+        "1": 0
+      }
+    },
+    "discussion": [
+      {
+        "user": "EmilyR",
+        "comment": "Does this shrink after washing?",
+        "date": "2024-10-10",
+        "replies": [
+          {
+            "user": "SupportTeam",
+            "comment": "No, it is pre-shrunk and won't shrink after washing.",
+            "date": "2024-10-11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prod-015",
+    "name": "White Hoodie",
+    "category": "Clothing",
+    "price": 2500,
+    "discount": 10,
+    "stock": 50,
+    "brand": "UrbanStyle",
+    "description": "A classic white t-shirt made from 100% organic cotton. Perfect for casual wear.",
+    "sizes": ["S", "M", "L", "XL"],
+    "tags": ["cotton", "classic", "unisex"],
+    "thumbnail": "/images/product-images/hoodie5.png",
+    "images": [
+      "/images/product-images/hoodie5.png",
+      "/images/product-images/hoodie2.png",
+      "/images/product-images/hoodie3.png",
+      "/images/product-images/hoodie4.png"
+    ],
+    "createdAt": "2024-11-21",
+    "sku": "CL-TS-WHT-001",
     "details": {
       "material": "100% Organic Cotton",
       "fit": "Regular",

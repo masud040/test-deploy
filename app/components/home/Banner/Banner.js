@@ -8,7 +8,7 @@ export const Banner = () => {
       style={{ backgroundImage: `url(${BannerImage.src})` }}
     >
       <div className="py-[111px] lg:py-[166px] px-4 md:px-[10px] lg:px-[403px] space-y-4 text-center bg-opacity-50 bg-black w-full">
-        <h1 className="capitalize text-background-light h2-bold-md-h1-bold">
+        <h1 className="capitalize text-background-light heading5-bold-md-heading1-bold">
           Elevate Your Everyday Style
         </h1>
 

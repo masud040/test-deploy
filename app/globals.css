@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url("./styles/theme.css");
 @layer base {
   * {
     @apply p-0 m-0 scroll-smooth;
@@ -40,33 +40,6 @@
     @apply flex items-center justify-start;
   }
 
-  /* font style related */
-
-  .h2-bold-md-h1-bold {
-    @apply text-[23px] md:text-[36px] lg:text-[48px] leading-[29.9px] lg:leading-[62.4px] font-bold;
-  }
-  .h4-bold-lg-h1-bold {
-    @apply text-[17.63px] md:text-[29.39px] leading-[24.0px] md:leading-[40.08px] font-bold;
-  }
-  .h4-h3-lg-h2 {
-    @apply text-[16px] leading-[20.8px] md:text-[19px] md:leading-[24.7px];
-  }
-
-  .h5-semibold-lg-h4-semibold {
-    @apply text-[13px] md:text-[16px] leading-[20.8px] font-semibold;
-  }
-
-  .h1-bold-lg-extra-large {
-    @apply text-[28px] md:text-[36px] lg:text-[48px] leading-[36.4px] lg:leading-[62.4px] font-bold;
-  }
-  .footer-paragraph-text {
-    @apply text-[13px] md:text-[16px] leading-[20.8px];
-  }
-
-  /* navlink */
-  .nav-link {
-    @apply p-2 capitalize h5-semibold-lg-h4-semibold;
-  }
   .icon {
     @apply size-6 text-tertiary-dark;
   }
@@ -81,10 +54,10 @@
     @apply p-1 text-2xl transition-all duration-300 ease-in-out rounded-full shadow-custom-inset hover:scale-125;
   }
   .btn-primary {
-    @apply px-6 py-2 transition duration-500 ease-in-out text-background-light bg-primary;
+    @apply px-6 py-2 transition duration-500 ease-in-out text-background-light bg-primary hover:bg-primary-darker;
   }
   .rounded-btn-primary {
-    @apply p-3 transition duration-500 ease-in-out rounded-full bg-primary;
+    @apply p-3 transition duration-500 ease-in-out rounded-full bg-primary hover:bg-primary-darker;
   }
   .swiper-pagination-bullet {
     @apply w-4 rounded-md duration-500 transition-all !important;
@@ -94,6 +67,9 @@
   }
   .mySwiper {
     @apply h-[400px] lg:h-[600px] !important;
+  }
+  .swiper {
+    @apply p-1 !important;
   }
 }
 .arrow-rotate {

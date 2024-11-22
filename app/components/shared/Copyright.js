@@ -1,3 +1,7 @@
 export const Copyright = () => {
-  return <div className="p-4 bg-primary-dark">Copyright</div>;
+  return (
+    <div className="px-4 py-6 text-center bg-primary-dark footer-paragraph-text text-background-light">
+      <p>&copy; 2024 | We5ive</p>
+    </div>
+  );
 };

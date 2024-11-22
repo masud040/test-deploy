@@ -11,7 +11,7 @@ export const SlideCard = ({ feature }) => {
         <div className="absolute bottom-0 w-full h-[270px]  lg:h-[450px]  bg-primary-lightest"></div>
       </div>
       <div className="flex-1 space-y-4">
-        <h1 className="uppercase h1-bold-lg-extra-large">{feature.title}</h1>
+        <h1 className="uppercase heading4-bold-lg-heading1">{feature.title}</h1>
         <div className="flex-start">
           <Link href="#" className="py-3 btn-primary rounded-3xl">
             Shop Now

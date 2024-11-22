@@ -7,9 +7,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      screens: {
-        xs: "480px",
-      },
       colors: {
         primary: {
           "extra-light": "#F6F5FD",
@@ -48,7 +45,17 @@ module.exports = {
         "7.5xl": "1344px",
         "8xl": "1408px",
       },
+      lineHeight: {
+        custom: "130%",
+        tighter: "1.2",
+        loose: "1.8",
+        relaxed: "1.6",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/typography"), // Plugin for better typography
+    require("@tailwindcss/forms"), // Plugin for form styling
+    require("@tailwindcss/aspect-ratio"), // Plugin for aspect ratios
+  ],
 };

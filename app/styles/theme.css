@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  /* font style related */
+  .heading1 {
+    @apply text-[48px]  leading-custom;
+  }
+  .heading1-semibold {
+    @apply heading1 font-semibold;
+  }
+  .heading1-bold {
+    @apply heading1 font-bold;
+  }
+  .heading2 {
+    @apply text-[40px] leading-custom;
+  }
+  .heading2-semibold {
+    @apply heading2 font-semibold;
+  }
+  .heading2-bold {
+    @apply heading2 font-bold;
+  }
+  .heading3 {
+    @apply text-[33px] leading-custom;
+  }
+  .heading3-semibold {
+    @apply heading3 font-semibold;
+  }
+  .heading3-bold {
+    @apply heading3 font-bold;
+  }
+  .heading4 {
+    @apply text-[28px] leading-custom;
+  }
+  .heading4-semibold {
+    @apply heading4 font-semibold;
+  }
+  .heading4-bold {
+    @apply heading4 font-bold;
+  }
+  .heading5 {
+    @apply text-[23px] leading-custom;
+  }
+  .heading5-semibold {
+    @apply heading5 font-semibold;
+  }
+  .heading5-bold {
+    @apply heading5 font-bold;
+  }
+  .body {
+    @apply text-[16px] leading-custom;
+  }
+  .body-semibold {
+    @apply font-semibold body;
+  }
+  .body-bold {
+    @apply font-bold body;
+  }
+  .caption1 {
+    @apply text-[13px] leading-custom;
+  }
+  .caption1-semibold {
+    @apply font-semibold caption1;
+  }
+  .caption1-bold {
+    @apply font-bold caption1;
+  }
+  .caption2 {
+    @apply text-[11px] leading-custom;
+  }
+  .caption2-semibold {
+    @apply font-semibold caption2;
+  }
+  .caption2-bold {
+    @apply font-bold caption2;
+  }
+  .title {
+    @apply text-[19px] leading-custom;
+  }
+  .title-semibold {
+    @apply font-semibold title;
+  }
+  .title-bold {
+    @apply font-bold title;
+  }
+
+  .heading5-bold-md-heading1-bold {
+    @apply heading5-bold md:heading1-bold;
+  }
+
+  .body-bold-md-heading4-bold {
+    @apply body-bold md:heading4-bold;
+  }
+  .body-md-title {
+    @apply body md:title;
+  }
+
+  .caption-semibold-md-body-semibold {
+    @apply caption1-semibold md:body-semibold;
+  }
+
+  .heading4-bold-lg-heading1 {
+    @apply heading4-bold lg:heading1-bold;
+  }
+  /* navlink */
+  .nav-link {
+    @apply p-2 capitalize caption-semibold-md-body-semibold;
+  }
+}
