@@ -1,5 +1,5 @@
 import { IoClose } from "react-icons/io5";
-import { NavbarLinks } from "../Navbar/NavbarLinks";
+import { NavbarLinks } from "../../Navbar/NavbarLinks";
 import { Logo } from "./Logo";
 
 export default function NavigationDrawer({ showDrawer, handleDrawer }) {

@@ -1,4 +1,4 @@
-import CustomLink from "../shared/CustomLink";
+import CustomLink from "../shared/Navbar/CustomLink";
 
 export const NavbarLinks = () => {
   return (

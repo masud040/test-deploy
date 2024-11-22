@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 import { CgMenuLeft } from "react-icons/cg";
-import { NavbarLinks } from "../Navbar/NavbarLinks";
-import { NavbarRightAction } from "../Navbar/NavbarRightAction";
+import { NavbarLinks } from "../../Navbar/NavbarLinks";
+import { NavbarRightAction } from "../../Navbar/NavbarRightAction";
 import { Logo } from "./Logo";
 import NavigationDrawer from "./NavigationDrawer";
 

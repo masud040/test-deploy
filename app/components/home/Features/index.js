@@ -5,8 +5,10 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { SlideCard } from "./SlideCard";
-export const FeaturesSection = () => {
+export const FeaturesContainer = () => {
   const [features, setFeatures] = useState([]);
+
+  // run useeffect for get feature data
   useEffect(() => {
     const getFeatures = async () => {
       try {
@@ -25,7 +27,8 @@ export const FeaturesSection = () => {
   }, []);
   return (
     <section className="px-[15px] my-8 md:px-10 lg:px-20 py-4 md:py-[19.5px] ">
-      <div className="hidden lg:block">
+      {/* showing slider when medium  and large screen*/}
+      <div className="hidden md:block">
         <Swiper
           className="mySwiper"
           spaceBetween={50}
@@ -44,7 +47,9 @@ export const FeaturesSection = () => {
             ))}
         </Swiper>
       </div>
-      <div className="block w-full lg:hidden">
+      {/* showing card when only small*/}
+
+      <div className="block w-full md:hidden">
         {features?.length > 0 &&
           features?.map((feature) => (
             <SlideCard key={feature.id} feature={feature} />
