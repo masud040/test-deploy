@@ -1,4 +1,4 @@
-export const FeatureItem = ({ Icon, title, description }) => {
+export const BenefitItem = ({ Icon, title, description }) => {
   return (
     <div className="flex items-start justify-start gap-[16px]">
       <Icon className="text-[32px]" />

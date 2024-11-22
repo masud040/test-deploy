@@ -1,0 +1,55 @@
+"use client";
+import { useEffect, useState } from "react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { SlideCard } from "./SlideCard";
+export const FeaturesSection = () => {
+  const [features, setFeatures] = useState([]);
+  useEffect(() => {
+    const getFeatures = async () => {
+      try {
+        const response = await fetch("/data/features.json");
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        const data = await response.json();
+        setFeatures(data);
+      } catch (error) {
+        console.error("Failed to fetch features:", error);
+      }
+    };
+
+    getFeatures();
+  }, []);
+  return (
+    <section className="px-[15px] my-8 md:px-10 lg:px-20 py-4 md:py-[19.5px] ">
+      <div className="hidden lg:block">
+        <Swiper
+          className="mySwiper"
+          spaceBetween={50}
+          pagination={{
+            clickable: true,
+            className: "swiper-pagination-bullet",
+            bulletActiveClass: "swiper-pagination-bullet-active",
+          }}
+          modules={[Pagination]}
+        >
+          {features?.length > 0 &&
+            features?.map((feature) => (
+              <SwiperSlide key={feature.id}>
+                <SlideCard feature={feature} />
+              </SwiperSlide>
+            ))}
+        </Swiper>
+      </div>
+      <div className="block w-full lg:hidden">
+        {features?.length > 0 &&
+          features?.map((feature) => (
+            <SlideCard key={feature.id} feature={feature} />
+          ))}
+      </div>
+    </section>
+  );
+};

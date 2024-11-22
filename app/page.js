@@ -1,15 +1,17 @@
 import AddSection from "./components/home/AddSection";
 import { Banner } from "./components/home/Banner/Banner";
-import Feature from "./components/home/Feature";
+import BenefitSection from "./components/home/BenefitSection";
+import { FeaturesSection } from "./components/home/Features";
 import NewArrivalSection from "./components/home/NewArrivals";
 
 export default function Home() {
   return (
     <>
       <Banner />
-      <Feature />
+      <BenefitSection />
       <NewArrivalSection />
       <AddSection />
+      <FeaturesSection />
     </>
   );
 }

@@ -6,18 +6,18 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 export default function AddSection() {
   return (
     <section className="px-0 md:px-10 lg:px-20 py-4 md:py-[19.5px">
-      <div className="flex flex-col items-center w-full p-4 md:flex-row bg-primary-lightest md:px-10 lg:px-16">
-        <div className="flex-1 space-y-2 lg:space-y-4">
+      <div className="flex flex-col items-center w-full gap-6 px-6 pt-6 md:flex-row bg-primary-lightest md:px-10 lg:px-16">
+        <div className="flex-1 space-y-2 text-center lg:space-y-4 md:text-start">
           <h2 className="italic text-[24px] leading-[42.14px] font-normal text-primary-darker">
             Big Deal
           </h2>
 
-          <h2 className="text-[28px] md:text-[36px] lg:text-[48px] leading-[36.4px] lg:leading-[62.4px] font-bold">
+          <h2 className="h1-bold-lg-extra-large">
             <span className="text-primary-darker">30%</span> Of for New
             Customers
           </h2>
 
-          <div className="flex-start">
+          <div className="flex-center md:flex-start">
             <Link href="#" className="py-3 btn-primary rounded-3xl">
               Shop Now
             </Link>

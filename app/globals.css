@@ -57,7 +57,10 @@
   }
 
   .h5-semibold-lg-h4-semibold {
-    @apply text-[13px] lg:text-[16px] leading-[20.8px] font-semibold;
+    @apply text-[13px] md:text-[16px] leading-[20.8px] font-semibold;
+  }
+  .h1-bold-lg-extra-large {
+    @apply text-[28px] md:text-[36px] lg:text-[48px] leading-[36.4px] lg:leading-[62.4px] font-bold;
   }
 
   /* navlink */
@@ -82,6 +85,15 @@
   }
   .rounded-btn-primary {
     @apply p-3 transition duration-500 ease-in-out rounded-full bg-primary;
+  }
+  .swiper-pagination-bullet {
+    @apply w-4 rounded-md duration-500 transition-all !important;
+  }
+  .swiper-pagination-bullet-active {
+    @apply w-6 scale-125 bg-primary-darker !important;
+  }
+  .mySwiper {
+    @apply h-[400px] lg:h-[600px] !important;
   }
 }
 .arrow-rotate {

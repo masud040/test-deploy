@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Men Collection",
+    "href": "/men-collection",
+    "image": "/images/men-image.webp"
+  },
+  {
+    "id": 2,
+    "title": "Women Collection",
+    "href": "/women-collection",
+    "image": "/images/women-image.webp"
+  },
+  {
+    "id": 3,
+    "title": "Kid Collection",
+    "href": "/kid-collection",
+    "image": "/images/kid-image.webp"
+  }
+]
