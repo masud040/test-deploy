@@ -1,7 +1,8 @@
+import Facebook from "@/public/images/icons/Facebook.png";
+import Linkedin from "@/public/images/icons/Linkedin.png";
+import Twitter from "@/public/images/icons/Twitter.png";
+import Image from "next/image";
 import Link from "next/link";
-import { FaFacebook } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { IoLogoLinkedin } from "react-icons/io";
 import { Logo } from "../Navbar/Logo";
 export const FooterContainer = () => {
   return (
@@ -50,13 +51,13 @@ export const FooterContainer = () => {
           <p className="font-bold">Social Link</p>
           <div className="gap-2 flex-start">
             <Link href="#">
-              <FaFacebook className="text-xl text-blue-500" />
+              <Image src={Facebook} width={25} height={25} alt="Facebook" />
             </Link>
             <Link href="#">
-              <FaXTwitter className="text-xl text-tertiary" />
+              <Image src={Twitter} width={25} height={25} alt="Twitter" />
             </Link>
             <Link href="#">
-              <IoLogoLinkedin className="text-xl text-blue-500" />
+              <Image src={Linkedin} width={25} height={25} alt="Linkedin" />
             </Link>
           </div>
         </div>
