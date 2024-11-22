@@ -37,7 +37,7 @@ export const ProductsContainer = ({ productData }) => {
           {productData?.length > 0 ? (
             productData.map((product) => (
               <SwiperSlide key={product.id}>
-                <ProductCard product={product} />
+                <ProductCard product={product} withRatingAndOf={false} />
               </SwiperSlide>
             ))
           ) : (

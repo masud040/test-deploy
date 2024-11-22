@@ -22,13 +22,14 @@ export const ProductContainer = ({ products }) => {
         }}
         modules={[Grid]}
         breakpoints={{
+          // Small screens: Single column and row (1x1 grid)
           0: {
             slidesPerView: 1,
             grid: {
               rows: 1, // Single row
             },
           },
-          // Medium screens and larger: 2x2 grid
+          // Medium screens: Two columns and two rows (2x2 grid)
           768: {
             slidesPerView: 2,
             grid: {
@@ -36,6 +37,7 @@ export const ProductContainer = ({ products }) => {
               fill: "row", // Fill row by row
             },
           },
+          // Large screens: Four columns and two rows (4x2 grid)
           1280: {
             slidesPerView: 4,
             grid: {
@@ -48,7 +50,7 @@ export const ProductContainer = ({ products }) => {
         {products?.length > 0 ? (
           products.map((product) => (
             <SwiperSlide key={product.id}>
-              <ProductCard product={product} />
+              <ProductCard product={product} withRatingAndOf={true} />
             </SwiperSlide>
           ))
         ) : (
