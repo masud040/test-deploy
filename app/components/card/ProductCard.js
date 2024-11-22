@@ -40,7 +40,7 @@ export const ProductCard = ({ product, withRatingAndOf }) => {
 
       <div className="p-2 flex-between">
         <p className="title">{product.name}</p>
-        <p className="font-semibold title">{product.price}</p>
+        <p className="font-semibold title">BDT {product.price}</p>
       </div>
       {/* product action button */}
       <AddToCardBtn />

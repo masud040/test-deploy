@@ -4,13 +4,14 @@ import { usePathname } from "next/navigation";
 
 export default function CustomLink({ hrefName, title }) {
   const pathname = usePathname();
+  const firstPath = `/${pathname?.split("/")[1]}`;
 
   return (
     <li>
       <Link
         href={hrefName}
         className={`${
-          pathname === hrefName ? "text-secondary" : "text-tertiary"
+          firstPath === hrefName ? "text-secondary" : "text-tertiary"
         } nav-link`}
       >
         {title}

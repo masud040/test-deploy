@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Logo } from "../Navbar/Logo";
 export const FooterContainer = () => {
   return (
-    <section className="px-4 py-6 space-y-12 lg:py-12 bg-background-dark lg:px-20 text-background-light">
+    <footer className="px-4 py-6 space-y-12 lg:py-12 bg-background-dark lg:px-20 text-background-light">
       <div className="flex flex-col items-start justify-center gap-6 lg:gap-20 md:flex-row md:items-center">
         <div className="flex-1 space-y-3 md:space-y-6">
           <Logo from="footer" />
@@ -62,6 +62,6 @@ export const FooterContainer = () => {
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
