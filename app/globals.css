@@ -93,6 +93,9 @@
   .swiper-button-prev-custom {
     @apply rounded-next-prev-button p-1 absolute top-1/2 -translate-y-1/2 z-10 cursor-pointer !important;
   }
+  .active-tab {
+    @apply border-none text-primary-dark transition-all duration-300;
+  }
 }
 .arrow-rotate {
   transform: rotate(145deg);
