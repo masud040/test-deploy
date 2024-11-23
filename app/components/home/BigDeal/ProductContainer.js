@@ -62,13 +62,13 @@ export const ProductContainer = ({ products }) => {
       <div className="absolute right-0 gap-2 -top-[72px] flex-start">
         <button
           onClick={() => swiperRef?.current?.slidePrev()}
-          className="p-2 transition-colors duration-300 border-2 rounded-full text-primary-dark border-primary-dark hover:bg-primary-dark hover:text-white"
+          className="p-2 rounded-next-prev-button"
         >
           <FaArrowLeftLong className="text-lg" />
         </button>
         <button
           onClick={() => swiperRef?.current?.slideNext()}
-          className="p-2 transition-colors duration-300 border-2 rounded-full text-primary-dark border-primary-dark hover:bg-primary-dark hover:text-white"
+          className="p-2 rounded-next-prev-button"
         >
           <FaArrowRightLong className="text-lg" />
         </button>

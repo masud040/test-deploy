@@ -73,6 +73,13 @@
   .swiper {
     @apply p-1 !important;
   }
+  .rounded-next-prev-button {
+    @apply transition-colors duration-300 border-2 rounded-full text-primary-dark border-primary-dark hover:bg-primary-darkist hover:text-white;
+  }
+  .swiper-button-next-custom,
+  .swiper-button-prev-custom {
+    @apply rounded-next-prev-button p-1 absolute top-1/2 -translate-y-1/2 z-10 cursor-pointer !important;
+  }
 }
 .arrow-rotate {
   transform: rotate(145deg);

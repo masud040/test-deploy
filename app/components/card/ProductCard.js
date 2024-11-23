@@ -1,11 +1,15 @@
 import Image from "next/image";
 import { FaRegStar, FaStar } from "react-icons/fa";
 
+import Link from "next/link";
 import Rating from "react-rating";
 import { AddToCardBtn } from "../Buttons/AddToCardBtn";
 export const ProductCard = ({ product, withRatingAndOf }) => {
   return (
-    <div className="flex flex-col h-full gap-3 p-3 bg-white rounded-lg shadow group">
+    <Link
+      href={`/shop/product/${product.id}`}
+      className="flex flex-col h-full gap-3 p-3 bg-white rounded-lg shadow group"
+    >
       <div className="relative overflow-hidden rounded-lg bg-primary-extra-light flex-center">
         <div className="relative h-[287px] w-full lg:h-[380px] ">
           <Image
@@ -44,6 +48,6 @@ export const ProductCard = ({ product, withRatingAndOf }) => {
       </div>
       {/* product action button */}
       <AddToCardBtn />
-    </div>
+    </Link>
   );
 };

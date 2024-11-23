@@ -9,6 +9,7 @@
     "brand": "UrbanStyle",
     "description": "A classic white t-shirt made from 100% organic cotton. Perfect for casual wear.",
     "sizes": ["S", "M", "L", "XL"],
+    "colors": ["White", "Black"],
     "tags": ["cotton", "classic", "unisex"],
     "thumbnail": "/images/product-images/hoodie1.png",
     "images": [
@@ -75,6 +76,7 @@
     "brand": "UrbanStyle",
     "description": "Crafted from 100% organic cotton, our Classic White T-Shirt combines comfort and sustainability. Designed with a regular fit, this wardrobe essential is perfect for any casual occasion. The fabric is lightweight and breathable, making it ideal for warm weather. Its premium stitching ensures long-lasting durability, while the soft texture feels gentle on the skin. The t-shirt features a classic round neckline and short sleeves, making it easy to pair with jeans, shorts, or skirts. Ideal for layering or wearing on its own, it is versatile enough for both men and women. Made with eco-friendly dyes, this t-shirt is not only stylish but also contributes to reducing your carbon footprint. Whether you're heading to the park, running errands, or lounging at home, this t-shirt offers unmatched comfort and timeless style. It’s a staple piece that you’ll reach for time and again.",
     "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Black", "White"],
     "tags": ["cotton", "classic", "unisex"],
     "thumbnail": "/images/product-images/white-shirt.png",
     "images": [
@@ -140,8 +142,9 @@
     "stock": 30,
     "brand": "CozyWear",
     "description": "Stay warm this winter with our premium Woolen Sweater. This classic piece is made from 100% wool, offering unbeatable warmth and comfort. Its snug fit and ribbed cuffs provide a tailored look, while the breathable fabric ensures you stay cozy without feeling overheated. Featuring a high neckline and a subtle cable-knit design, this sweater pairs perfectly with jeans or trousers for a smart-casual appearance. The sweater is available in neutral colors like grey and beige, making it easy to mix and match with your wardrobe. Ideal for chilly mornings, office wear, or weekend getaways, this versatile sweater is a winter wardrobe must-have. Its durable construction and timeless design ensure that it remains a staple for seasons to come. Whether you're sipping hot cocoa by the fire or exploring the outdoors, this sweater will keep you comfortable and stylish.",
-    "sizes": ["M", "L", "XL"],
-    "tags": ["sweater", "wool", "winter"],
+
+    "tags": ["sarree", "silk", "ethnic"],
+    "colors": ["Red", "Blue", "Green"],
     "thumbnail": "/images/product-images/saree.png",
     "images": [
       "/images/product-images/saree.png",
@@ -273,6 +276,7 @@
     "brand": "ClassicFit",
     "description": "Elevate your office wardrobe with our Formal Cotton Shirt. Made from premium cotton fabric, this shirt is designed for comfort and sophistication. The tailored fit ensures a polished appearance, while the breathable material keeps you cool during long hours. Featuring a crisp collar, full sleeves, and button-down design, this shirt is ideal for meetings, presentations, or formal events. Available in classic colors like white, blue, and light pink, it pairs effortlessly with trousers or blazers. The wrinkle-resistant fabric makes it easy to maintain, while the subtle stitching details add a touch of elegance. Whether you're heading to work or attending a business dinner, this shirt guarantees a sharp and professional look. Add this versatile piece to your wardrobe and experience the perfect blend of style and comfort.",
     "sizes": ["M", "L", "XL", "XXL"],
+    "colors": ["Black", "White"],
     "tags": ["shirt", "cotton", "formal"],
     "thumbnail": "/images/product-images/shirt.png",
     "images": [
@@ -339,6 +343,7 @@
     "brand": "UrbanStyle",
     "description": "A classic white t-shirt made from 100% organic cotton. Perfect for casual wear.",
     "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Black", "White"],
     "tags": ["cotton", "classic", "unisex"],
     "thumbnail": "/images/product-images/hoodie6.png",
     "images": [
@@ -405,6 +410,7 @@
     "brand": "UrbanStyle",
     "description": "Crafted from 100% organic cotton, our Classic White T-Shirt combines comfort and sustainability. Designed with a regular fit, this wardrobe essential is perfect for any casual occasion. The fabric is lightweight and breathable, making it ideal for warm weather. Its premium stitching ensures long-lasting durability, while the soft texture feels gentle on the skin. The t-shirt features a classic round neckline and short sleeves, making it easy to pair with jeans, shorts, or skirts. Ideal for layering or wearing on its own, it is versatile enough for both men and women. Made with eco-friendly dyes, this t-shirt is not only stylish but also contributes to reducing your carbon footprint. Whether you're heading to the park, running errands, or lounging at home, this t-shirt offers unmatched comfort and timeless style. It’s a staple piece that you’ll reach for time and again.",
     "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Black", "White"],
     "tags": ["cotton", "classic", "unisex"],
     "thumbnail": "/images/product-images/t-shirt1.webp",
     "images": [
@@ -470,8 +476,8 @@
     "stock": 30,
     "brand": "CozyWear",
     "description": "Stay warm this winter with our premium Woolen Sweater. This classic piece is made from 100% wool, offering unbeatable warmth and comfort. Its snug fit and ribbed cuffs provide a tailored look, while the breathable fabric ensures you stay cozy without feeling overheated. Featuring a high neckline and a subtle cable-knit design, this sweater pairs perfectly with jeans or trousers for a smart-casual appearance. The sweater is available in neutral colors like grey and beige, making it easy to mix and match with your wardrobe. Ideal for chilly mornings, office wear, or weekend getaways, this versatile sweater is a winter wardrobe must-have. Its durable construction and timeless design ensure that it remains a staple for seasons to come. Whether you're sipping hot cocoa by the fire or exploring the outdoors, this sweater will keep you comfortable and stylish.",
-    "sizes": ["M", "L", "XL"],
-    "tags": ["sweater", "wool", "winter"],
+    "colors": ["Red", "Blue", "Green"],
+    "tags": ["sarree", "silk", "ethnic"],
     "thumbnail": "/images/product-images/saree.png",
     "images": [
       "/images/product-images/saree.png",
@@ -603,6 +609,7 @@
     "brand": "UrbanStyle",
     "description": "Crafted from 100% organic cotton, our Classic White T-Shirt combines comfort and sustainability. Designed with a regular fit, this wardrobe essential is perfect for any casual occasion. The fabric is lightweight and breathable, making it ideal for warm weather. Its premium stitching ensures long-lasting durability, while the soft texture feels gentle on the skin. The t-shirt features a classic round neckline and short sleeves, making it easy to pair with jeans, shorts, or skirts. Ideal for layering or wearing on its own, it is versatile enough for both men and women. Made with eco-friendly dyes, this t-shirt is not only stylish but also contributes to reducing your carbon footprint. Whether you're heading to the park, running errands, or lounging at home, this t-shirt offers unmatched comfort and timeless style. It’s a staple piece that you’ll reach for time and again.",
     "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Black", "White"],
     "tags": ["cotton", "classic", "unisex"],
     "thumbnail": "/images/product-images/t-shirt1.webp",
     "images": [
@@ -669,7 +676,7 @@
     "brand": "WinterHaven",
     "description": "Wrap yourself in warmth with our Cozy Knitted Scarf, the perfect accessory for chilly days. Made with high-quality acrylic yarn, this scarf offers both style and comfort. Its intricate knitting pattern provides texture, while the long length ensures versatile styling options. Drape it around your neck for a casual look or wrap it snugly for extra warmth. Available in a variety of neutral and vibrant colors, it pairs effortlessly with coats, jackets, or sweaters. Lightweight yet insulating, it’s ideal for outdoor adventures, commutes, or casual outings. The durable fabric is easy to care for, retaining its softness even after multiple washes. Whether you’re heading to the office or taking a winter stroll, this scarf adds a cozy and fashionable layer to your outfit. Elevate your winter wardrobe with this must-have accessory, perfect for gifting or personal use.",
     "colors": ["Grey", "Beige", "Maroon"],
-    "tags": ["scarf", "knitted", "winter"],
+    "tags": ["scarf", "threepiss", "women"],
     "thumbnail": "/images/product-images/threepiss.png",
     "images": [
       "/images/product-images/threepiss.png",
@@ -735,6 +742,7 @@
     "brand": "DenimStyle",
     "description": "Our Denim Skinny Jeans are a wardrobe essential, combining comfort and style seamlessly. Made with a stretchable cotton blend, these jeans offer a flattering fit that hugs your body in all the right places. The mid-rise design ensures a secure and comfortable feel, while the classic five-pocket layout adds functionality. Perfect for casual outings, pair these jeans with a graphic tee for a relaxed look or a blouse for a chic vibe. The high-quality denim is both durable and breathable, making it suitable for all-day wear. Available in versatile washes like dark indigo, light blue, and black, these jeans are designed to match every outfit. Whether you’re running errands, meeting friends, or heading to a casual dinner, these jeans are your go-to choice for effortless fashion.",
     "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Black", "Grary"],
     "tags": ["jeans", "denim", "casual"],
     "thumbnail": "/images/product-images/women-pant.png",
     "images": [
@@ -867,6 +875,7 @@
     "brand": "ModernFit",
     "description": "Experience the perfect balance of style and comfort with our Casual Chino Pants. Made from a premium cotton blend, these pants are designed for all-day wear. The slim-fit cut provides a contemporary silhouette, while the stretchable fabric ensures maximum comfort and flexibility. Ideal for both work and casual outings, these chinos are available in neutral shades like khaki, navy, and grey. The wrinkle-resistant material makes them a practical choice for busy days. Featuring side and back pockets, they offer ample storage without compromising on style. Pair them with a button-down shirt for a business casual look or a polo tee for a relaxed weekend vibe. Durable, versatile, and stylish, these chinos are a must-have addition to your wardrobe.",
     "sizes": ["M", "L", "XL", "XXL"],
+    "colors": ["Black", "White"],
     "tags": ["chinos", "pants", "casual"],
     "thumbnail": "/images/product-images/women-pant.png",
     "images": [
@@ -933,6 +942,7 @@
     "brand": "UrbanStyle",
     "description": "A classic white t-shirt made from 100% organic cotton. Perfect for casual wear.",
     "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Black", "White"],
     "tags": ["cotton", "classic", "unisex"],
     "thumbnail": "/images/product-images/hoodie5.png",
     "images": [

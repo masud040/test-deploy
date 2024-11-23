@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Breadcrumb = ({ nameWithPath, name1 }) => {
   return (
-    <div className="gap-1 py-1 flex-start">
+    <div className="gap-1 py-4 flex-start">
       {nameWithPath?.name && (
         <>
           <Link href={nameWithPath?.path}>
