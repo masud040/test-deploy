@@ -54,9 +54,11 @@ export const ProductContainer = ({ products }) => {
             </SwiperSlide>
           ))
         ) : (
-          <p className="text-center text-primary-dark title-semibold">
-            No New Arrival Products.
-          </p>
+          <SwiperSlide>
+            <p className="text-center text-primary-dark title-semibold">
+              No Big Deal Products.
+            </p>
+          </SwiperSlide>
         )}
       </Swiper>
       <div className="absolute right-0 gap-2 -top-[72px] flex-start">
@@ -74,9 +76,11 @@ export const ProductContainer = ({ products }) => {
         </button>
       </div>
       <div className="mt-6 flex-center">
-        <button className="px-6 py-2 transition duration-500 ease-in-out rounded-lg text-background-light bg-primary-dark body-semibold">
-          See More
-        </button>
+        {products?.length > 0 && (
+          <button className="px-6 py-2 transition duration-500 ease-in-out rounded-lg text-background-light bg-primary-dark body-semibold">
+            See More
+          </button>
+        )}
       </div>
     </div>
   );

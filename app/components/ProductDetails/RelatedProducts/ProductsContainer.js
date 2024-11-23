@@ -9,6 +9,7 @@ import { ProductCard } from "../../card/ProductCard";
 
 export const ProductsContainer = ({ productData }) => {
   const swiperRef = useRef(null);
+  console.log(productData);
   return (
     <>
       <div className="relative">
@@ -43,12 +44,12 @@ export const ProductsContainer = ({ productData }) => {
           ) : (
             <SwiperSlide>
               <p className="text-center text-primary-dark title-semibold">
-                No New Arraival Products.
+                No Related Products.
               </p>
             </SwiperSlide>
           )}
         </Swiper>
-        <div className="absolute right-0 gap-2 -top-[72px] flex-start">
+        <div className="absolute right-0 gap-2 -top-[59px] flex-start">
           <button
             onClick={() => swiperRef?.current?.slidePrev()}
             className="p-2 rounded-next-prev-button"

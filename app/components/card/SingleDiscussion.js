@@ -26,7 +26,7 @@ export default function SingleDiscussion({ discussion }) {
       </div>
       {discussion.replies &&
         discussion.replies.map((reply, index) => (
-          <div key={`reply-${index}`} className="absolute left-6">
+          <div key={`reply-${index}`} className="ps-8">
             <SingleDiscussion discussion={reply} />
           </div>
         ))}

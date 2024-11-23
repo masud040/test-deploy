@@ -4,6 +4,7 @@ export const SectionTitle = ({ sectionLabel, sectionTitle }) => {
       <p className="font-normal uppercase body-md-title text-primary-medium">
         {sectionLabel}
       </p>
+
       <h1 className="text-[23px] leading-[29.9px] lg:text-[28px] lg:leading-[36.4px] capitalize font-bold text-background-dark">
         {sectionTitle}
       </h1>

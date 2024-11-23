@@ -1,7 +1,7 @@
 import SingleDiscussion from "../card/SingleDiscussion";
 export default function ProductDiscussion({ discussions }) {
   return (
-    <div className="pb-12">
+    <div>
       {discussions?.length > 0 ? (
         discussions.map((discussion, index) => (
           <SingleDiscussion

@@ -2,6 +2,7 @@ import { getSingleProduct } from "@/db/queries";
 import ProductDescription from "./ProductDescription";
 import ProductImages from "./ProductImages";
 import ProductOverview from "./ProductOverview";
+import RelatedProductsContainer from "./RelatedProducts";
 
 export default async function ProductDetailsContainer({ productId }) {
   const product = await getSingleProduct(productId);
@@ -18,6 +19,8 @@ export default async function ProductDetailsContainer({ productId }) {
       </div>
       {/* product description */}
       <ProductDescription product={product} />
+      {/* related products */}
+      <RelatedProductsContainer tags={product.tags} />
     </>
   );
 }

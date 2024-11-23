@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-primary-extra-light px-[15px] md:px-10 lg:px-20 py-4 md:py-[19.5px] flex-between gap-2 relative">
+      <nav className="bg-primary-extra-light px-[15px] md:px-10 lg:px-20 py-4 flex-between gap-2 relative">
         <div className="block md:hidden">
           {/*navigation drawer controller button */}
           <CgMenuLeft
