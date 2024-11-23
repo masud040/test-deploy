@@ -33,7 +33,7 @@
 
 @layer components {
   .size-selector input[type="radio"]:checked + label {
-    @apply border-2 border-primary-dark;
+    @apply transition-colors duration-300 border-2 border-primary-dark;
   }
 }
 

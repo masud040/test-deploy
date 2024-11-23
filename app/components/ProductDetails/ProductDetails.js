@@ -3,7 +3,9 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { FaMinus, FaPlus } from "react-icons/fa6";
+import { IoBagOutline } from "react-icons/io5";
 import Rating from "react-rating";
+import ProductActionButton from "./ProductActionButton";
 export default function ProductDetails({ product }) {
   const { id, name, price, discount, colors, createdAt, sizes, rating } =
     product || {};
@@ -46,8 +48,8 @@ export default function ProductDetails({ product }) {
   }
 
   return (
-    <div className="w-full space-y-8 lg:w-1/2">
-      <div className="space-y-6">
+    <div className="w-full space-y-4 lg:space-y-8 lg:w-1/2">
+      <div className="space-y-4 lg:space-y-6">
         <div className="p-2 px-10 rounded-lg bg-primary-extra-dark w-fit text-background-light body-semibold">
           {tag}
         </div>
@@ -73,12 +75,12 @@ export default function ProductDetails({ product }) {
       </div>
 
       {/* size and color */}
-      <div className="grid items-start grid-cols-2">
+      <div className="grid items-start grid-cols-1 gap-5 py-8 border-[#CECECE] border-dotted border-y md:grid-cols-2">
         {/* show when size available */}
         {sizes && sizes.length > 0 && (
           <div className="space-y-4">
             <p className="body-semibold">Available Size</p>
-            <div className="flex gap-4">
+            <div className="flex gap-2">
               {sizes.map((size, index) => {
                 const isSelected =
                   searchParams.get("size") === size ||
@@ -95,7 +97,7 @@ export default function ProductDetails({ product }) {
                     />
                     <label
                       htmlFor={`size-${size}`}
-                      className="rounded-lg body bg-primary-extra-light ftext-xs flex-center size-10"
+                      className="rounded-lg body bg-primary-extra-light flex-center size-10"
                     >
                       {size}
                     </label>
@@ -122,7 +124,7 @@ export default function ProductDetails({ product }) {
                       type="radio"
                       name={color}
                       id={`color-${color}`}
-                      className="border-none sr-only ring-0"
+                      className="sr-only "
                       checked={isSelected}
                     />
                     <div className="gap-2 flex-start">
@@ -146,7 +148,14 @@ export default function ProductDetails({ product }) {
           </div>
         )}
       </div>
-
+      {/* floting cart section */}
+      <div className="fixed right-0 z-50 flex flex-col items-center gap-2 p-2 -translate-y-1/2 top-1/2 bg-secondary text-background-light rounded-l-xl">
+        <IoBagOutline className="text-2xl" />
+        <div className="text-center caption1-bold">
+          <p>Your bag</p>
+          <p>0</p>
+        </div>
+      </div>
       {/* Quantity */}
       <div className="space-y-4">
         <p className="body-semibold">Quantity</p>
@@ -168,6 +177,8 @@ export default function ProductDetails({ product }) {
           </button>
         </div>
       </div>
+      {/* product action button */}
+      <ProductActionButton />
     </div>
   );
 }
