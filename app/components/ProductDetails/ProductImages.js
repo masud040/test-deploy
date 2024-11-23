@@ -31,7 +31,7 @@ export default function ProductImages({ thumbnail, images }) {
         ref={swiperRef} // Attach Swiper instance
       >
         {images.map((image, index) => (
-          <SwiperSlide key={image}>
+          <SwiperSlide key={`Image ${index + 1}`}>
             <div className="relative h-[271px] md:h-[400px] lg:h-[580px] w-full overflow-hidden bg-primary-extra-light">
               <Image
                 src={image}
@@ -57,7 +57,7 @@ export default function ProductImages({ thumbnail, images }) {
           <button
             key={index}
             onClick={() => handleThumbnailClick(index)} // Navigate to clicked thumbnail
-            className={`border-2  rounded-2xl ${
+            className={`border-2 transition-all duration-500 rounded-2xl ${
               index === activeIndex && "border-primary-dark"
             }`}
           >

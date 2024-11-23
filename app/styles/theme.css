@@ -99,6 +99,9 @@
   .caption-semibold-md-body-semibold {
     @apply caption1-semibold md:body-semibold;
   }
+  .title-semibold-md-heading3-semibold {
+    @apply title-semibold md:heading3-semibold;
+  }
 
   .heading4-bold-lg-heading1 {
     @apply heading4-bold lg:heading1-bold;

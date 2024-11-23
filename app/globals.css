@@ -8,7 +8,9 @@
   * {
     @apply p-0 m-0 scroll-smooth;
   }
-
+  body {
+    @apply bg-background-light;
+  }
   ::-webkit-scrollbar {
     width: 10px;
   }
@@ -21,6 +23,17 @@
   }
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+@layer components {
+  .size-selector input[type="radio"]:checked + label {
+    @apply border-2 border-primary-dark;
   }
 }
 

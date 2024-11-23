@@ -8,7 +8,7 @@ export const ProductCard = ({ product, withRatingAndOf }) => {
   return (
     <Link
       href={`/shop/product/${product.id}`}
-      className="flex flex-col h-full gap-3 p-3 bg-white rounded-lg shadow group"
+      className="flex flex-col h-full gap-3 p-3 bg-white border-none rounded-lg group"
     >
       <div className="relative overflow-hidden rounded-lg bg-primary-extra-light flex-center">
         <div className="relative h-[287px] w-full lg:h-[380px] ">
@@ -38,7 +38,7 @@ export const ProductCard = ({ product, withRatingAndOf }) => {
             readonly
             emptySymbol={<FaRegStar className="text-yellow-500" />}
           />
-          <p>({product?.rating?.totalRatings})</p>
+          <p className="body-semibold">({product?.rating?.totalRatings})</p>
         </div>
       )}
 

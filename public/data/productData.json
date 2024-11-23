@@ -18,7 +18,7 @@
       "/images/product-images/hoodie3.png",
       "/images/product-images/hoodie4.png"
     ],
-    "createdAt": "2024-11-21",
+    "createdAt": "2024-11-01",
     "sku": "CL-TS-WHT-001",
     "details": {
       "material": "100% Organic Cotton",
@@ -85,7 +85,7 @@
       "/images/product-images/white-shirt.png",
       "/images/product-images/t-shirt1.webp"
     ],
-    "createdAt": "2024-11-21",
+    "createdAt": "2024-90-21",
     "sku": "CL-TS-WHT-001",
     "details": {
       "material": "100% Organic Cotton",
@@ -108,7 +108,7 @@
       }
     ],
     "rating": {
-      "averageRating": 4.8,
+      "averageRating": 3,
       "totalRatings": 27,
       "ratingBreakdown": {
         "5": 20,
@@ -214,9 +214,9 @@
     "thumbnail": "/images/product-images/sarree-model.png",
     "images": [
       "/images/product-images/sarree-model.png",
-      "/images/product-images/sarree.png",
+      "/images/product-images/saree.png",
       "/images/product-images/sarree-model.png",
-      "/images/product-images/sarree.png"
+      "/images/product-images/saree.png"
     ],
     "createdAt": "2024-11-10",
     "sku": "ET-sarree-SLK-003",
@@ -547,9 +547,9 @@
     "thumbnail": "/images/product-images/sarree-model.png",
     "images": [
       "/images/product-images/sarree-model.png",
-      "/images/product-images/sarree.png",
+      "/images/product-images/saree.png",
       "/images/product-images/sarree-model.png",
-      "/images/product-images/sarree.png"
+      "/images/product-images/saree.png"
     ],
     "createdAt": "2024-11-10",
     "sku": "ET-sarree-SLK-003",

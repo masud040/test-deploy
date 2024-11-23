@@ -1,3 +1,5 @@
+import { notFound } from "next/navigation";
+
 // get new arrival products
 export async function getNewArraivalProduct() {
   const response = await fetch("http://localhost:3000/data/productData.json");
@@ -32,6 +34,7 @@ export async function getSingleProduct(id) {
   if (singleProduct) {
     return singleProduct;
   } else {
+    notFound();
     throw new Error("Product not found");
   }
 }

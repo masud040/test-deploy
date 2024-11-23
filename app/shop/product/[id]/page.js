@@ -3,6 +3,7 @@ import Breadcrumb from "@/app/components/shared/Bredcrumb";
 
 export default async function ProductPage({ params }) {
   const { id } = await params;
+
   return (
     <section className="px-[15px] md:px-10 lg:px-20 py-4 md:py-[19px]">
       <Breadcrumb
