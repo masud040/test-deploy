@@ -94,9 +94,14 @@
     @apply rounded-next-prev-button p-1 absolute top-1/2 -translate-y-1/2 z-10 cursor-pointer !important;
   }
   .active-tab {
-    @apply border-none text-primary-dark transition-all duration-300;
+    @apply transition-all duration-300 text-primary-dark;
   }
 }
 .arrow-rotate {
   transform: rotate(145deg);
+}
+.shadow-text {
+  filter: drop-shadow(-5px -5px 1px rgba(25, 36, 56, 1))
+    drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.2))
+    drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
 }

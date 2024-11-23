@@ -1,10 +1,11 @@
 import BlackLogo from "@/public/images/icons/black-logo.png";
 import WhiteLogo from "@/public/images/icons/white-logo.png";
 import Image from "next/image";
+import Link from "next/link";
 export const Logo = ({ from }) => {
   // change color depending on where rendered.
   return (
-    <div className="gap-1 flex-start">
+    <Link href="/" className="gap-1 flex-start">
       <Image
         src={from === "footer" ? WhiteLogo : BlackLogo}
         className="h-[18px] md:h-[27px] w-[26px] md:w-[40px]"
@@ -28,6 +29,6 @@ export const Logo = ({ from }) => {
           ive
         </span>
       </div>
-    </div>
+    </Link>
   );
 };
