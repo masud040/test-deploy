@@ -3,7 +3,7 @@ import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import ProductDetails from "./ProductDetails";
 import ProductDiscussion from "./ProductDiscussion";
-import ProductRatingReview from "./ProductRatingReview";
+import ProductRatingReviewSection from "./ProductRatingReview";
 export default function ProductDescription({ product }) {
   return (
     <div className="my-8">
@@ -15,10 +15,14 @@ export default function ProductDescription({ product }) {
         </TabList>
 
         <TabPanel>
-          <ProductDetails />
+          <ProductDetails
+            brand={product.brand}
+            description={product.description}
+            details={product.details}
+          />
         </TabPanel>
         <TabPanel>
-          <ProductRatingReview
+          <ProductRatingReviewSection
             reviews={product.reviews}
             rating={product.rating}
           />
