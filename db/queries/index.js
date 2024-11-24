@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 
 // get new arrival products
 export async function getNewArraivalProduct() {
-  const response = await fetch("http://localhost:3000/data/productData.json");
+  const response = await fetch("/public/data/productData.json");
 
   if (!response.ok) {
     throw new Error("Network response was not ok");
@@ -13,7 +13,7 @@ export async function getNewArraivalProduct() {
 
 // get all product
 export async function getAllProductsData() {
-  const response = await fetch("http://localhost:3000/data/productData.json");
+  const response = await fetch("/public/data/productData.json");
 
   if (!response.ok) {
     throw new Error("Network response was not ok");
