@@ -1,15 +1,13 @@
 "use client";
-
 import { useRef } from "react";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
-
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { ProductCard } from "../../card/ProductCard";
 
 export const ProductsContainer = ({ productData }) => {
   const swiperRef = useRef(null);
-  console.log(productData);
+
   return (
     <>
       <div className="relative">
@@ -28,10 +26,7 @@ export const ProductsContainer = ({ productData }) => {
               slidesPerView: 2, // Medium screens (tablet)
             },
             1024: {
-              slidesPerView: 3, // Large screens
-            },
-            1280: {
-              slidesPerView: 4, // Extra-large screens
+              slidesPerView: 4, // Large screens
             },
           }}
         >

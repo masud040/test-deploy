@@ -6,13 +6,13 @@ export default async function NewArrivalContainer() {
   const newArraivalData = await getNewArraivalProduct();
 
   return (
-    <section className="px-[15px] my-8 md:px-10 lg:px-20 py-4">
+    <div className="px-[15px] my-8 md:px-10 lg:px-20 py-4">
       <SectionTitle
         sectionTitle="New Arrivals"
         sectionLabel="Featured Product"
       />
 
       <ProductsContainer productData={newArraivalData} />
-    </section>
+    </div>
   );
 }

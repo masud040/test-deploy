@@ -6,7 +6,7 @@ import { BenefitItem } from "../card/FeatureItem";
 
 export default function BenefitSection() {
   return (
-    <section
+    <div
       className="bg-no-repeat bg-cover flex-center"
       style={{ backgroundImage: `url(${FeatureBanner.src})` }}
     >
@@ -27,6 +27,6 @@ export default function BenefitSection() {
           description="Cash on delevery and secured online payment"
         />
       </div>
-    </section>
+    </div>
   );
 }

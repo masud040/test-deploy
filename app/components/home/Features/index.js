@@ -27,7 +27,7 @@ export const FeaturesContainer = () => {
     getFeatures();
   }, []);
   return (
-    <section className="px-[15px] my-8 md:px-10 lg:px-20 py-4 ">
+    <div className="px-[15px] my-8 md:px-10 lg:px-20 py-4 ">
       {/* showing slider when medium  and large screen*/}
       <div className="hidden md:block">
         <Swiper
@@ -56,6 +56,6 @@ export const FeaturesContainer = () => {
             <SlideCard key={feature.id} feature={feature} />
           ))}
       </div>
-    </section>
+    </div>
   );
 };

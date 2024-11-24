@@ -5,7 +5,7 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 
 export default function AddSection() {
   return (
-    <section className="px-0 py-4 my-8 md:px-10 lg:px-20">
+    <div className="px-0 py-4 my-8 md:px-10 lg:px-20">
       <div className="flex flex-col items-center w-full gap-6 px-6 pt-6 md:flex-row bg-primary-lightest md:px-10 lg:px-16">
         <div className="flex-1 space-y-2 text-center lg:space-y-4 md:text-start">
           <h2 className="italic heading5 text-primary-darker">Big Deal</h2>
@@ -28,6 +28,6 @@ export default function AddSection() {
           <Image src={CoupleModel} alt="Model" fill />
         </div>
       </div>
-    </section>
+    </div>
   );
 }
