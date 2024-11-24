@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 // get all product
 export async function getAllProductsData() {
-  const response = await fetch("/public/data/productData.json");
+  const response = await fetch("/data/productData.json");
 
   if (!response) {
     throw new Error("Network response was not ok");
