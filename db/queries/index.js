@@ -1,14 +1,13 @@
-import productData from "@/public/data/productData.json";
 import { notFound } from "next/navigation";
 // get all product
 export async function getAllProductsData() {
-  const response = await productData;
+  const response = await fetch("/public/data/productData.json");
 
   if (!response) {
     throw new Error("Network response was not ok");
   }
-
-  return response;
+  const data = await response.json();
+  return data;
 }
 // get new arrival products
 export async function getNewArraivalProduct() {
