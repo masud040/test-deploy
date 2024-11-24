@@ -11,7 +11,9 @@ export default function ProductDiscussion({ discussions }) {
         ))
       ) : (
         <div>
-          <input type="text" />
+          <p className="text-center body-semibold text-primary-dark">
+            No Discussion!
+          </p>
         </div>
       )}
     </div>

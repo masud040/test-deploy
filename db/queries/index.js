@@ -24,17 +24,23 @@ export async function getAllProductsData() {
 
 // get single product by id
 export async function getSingleProduct(id) {
-  const response = await fetch("http://localhost:3000/data/productData.json");
-
-  if (!response) {
-    throw new Error("Network response was not ok");
-  }
-  const data = await response.json();
-  const singleProduct = data.find((product) => product.id === id);
+  const products = await getAllProductsData();
+  const singleProduct = products.find((product) => product.id === id);
   if (singleProduct) {
     return singleProduct;
   } else {
     notFound();
     throw new Error("Product not found");
   }
+}
+
+// get related products by product tags
+
+export async function getRelatedProducts(tags) {
+  const products = await getAllProductsData();
+  const relatedProducts = products.filter((product) =>
+    product.tags.some((tag) => tags.includes(tag))
+  );
+
+  return relatedProducts;
 }
