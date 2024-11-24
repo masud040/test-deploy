@@ -5,7 +5,7 @@ import { BigDealContainer } from "./components/home/BigDeal";
 import { FeaturesContainer } from "./components/home/Features";
 import NewArrivalContainer from "./components/home/NewArrivals";
 
-export default function Page() {
+export default async function Page() {
   return (
     <section>
       <Banner />

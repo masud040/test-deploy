@@ -1,25 +1,19 @@
+import productData from "@/public/data/productData.json";
 import { notFound } from "next/navigation";
-
-// get new arrival products
-export async function getNewArraivalProduct() {
-  const response = await fetch("/data/productData.json");
-
-  if (!response.ok) {
-    throw new Error("Network response was not ok");
-  }
-  const data = await response.json();
-  return data.slice(0, 8);
-}
-
 // get all product
 export async function getAllProductsData() {
-  const response = await fetch("/data/productData.json");
+  const response = await productData;
 
-  if (!response.ok) {
+  if (!response) {
     throw new Error("Network response was not ok");
   }
-  const data = await response.json();
-  return data;
+
+  return response;
+}
+// get new arrival products
+export async function getNewArraivalProduct() {
+  const data = await getAllProductsData();
+  return data.slice(0, 8);
 }
 
 // get single product by id
